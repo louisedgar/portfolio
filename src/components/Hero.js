@@ -11,8 +11,8 @@ class Hero extends Component {
     return (
       <div>
         {/* Hero Section */}
-        <div className="h-auto ">
-          <div className="lg:container pt-12 md:pt-0 md:flex flex-wrap">
+        <div className="h-auto">
+          <div className="lg:container pt-10 md:pt-0 md:flex flex-wrap">
             <div className="left-section md:ml-12 md:mt-12">
               <img src={image} alt="" />
             </div>
@@ -62,7 +62,7 @@ class Hero extends Component {
                 </a>
               </div>
               <a href="mailto:louisedgar@ymail.com">
-                <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-8 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
+                <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-12 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
                   Let's collaborate!
                 </button>
               </a>

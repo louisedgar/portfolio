@@ -11,7 +11,7 @@ export class Footer extends Component {
           <div className="text-1xl font-thin pt-12 md:text-2xl">
             Get in touch
           </div>
-          <div className="text-2xl font-semibold mt-6 md:text-5xl md:mt-4">
+          <div className="text-2xl font-bold mt-6 md:text-5xl md:mt-4">
             Say hi and let's collaborate
           </div>
           <div className="font-normal text-lg mx-4 mt-8 md:w-2/5 md:mx-auto md:mt-8">
@@ -64,7 +64,7 @@ export class Footer extends Component {
               ></img>
             </a>
           </div>
-          <div className="mt-8 opacity-75 ">
+          <div className="mt-8 opacity-75 mx-16">
             <small>
               &#169; 2020 All right reserved - Designed & Coded by Edgar Louis
             </small>
