@@ -11,12 +11,12 @@ export class Footer extends Component {
           <div className="text-1xl font-thin pt-12 md:text-2xl">
             Get in touch
           </div>
-          <div className="text-2xl font-bold mt-6 md:text-3xl md:mt-4">
+          <div className="text-3xl font-bold mt-4 md:text-4xl md:mt-3">
             Say hi and let's collaborate
           </div>
           <div className="font-normal text-lg mx-4 mt-8 md:w-2/5 md:mx-auto md:mt-8">
             Currently working as a freelance UX/UI Designer, I'm a
-            strive-to-learn person with a passion in technology, design and
+            strive-to-learn person with a passion in technology, design, and
             writing. If you have an idea for web and app, passionate in giving a
             good impact, and try to solve problems, don't hesitate to contact
             me.

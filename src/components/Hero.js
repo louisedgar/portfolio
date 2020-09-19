@@ -12,18 +12,18 @@ class Hero extends Component {
       <div>
         {/* Hero Section */}
         <div className="h-auto">
-          <div className="lg:container pt-10 md:pt-0 md:flex flex-wrap">
+          <div className="lg:container pt-5 md:pt-0 md:flex flex-wrap">
             <div className="left-section md:ml-12 md:mt-12">
               <img src={image} alt="" />
             </div>
-            <div className="right-section text-center mx-3 md:ml-6 md:text-left">
+            <div className="right-section text-center mx-3 md:ml-3 md:mr-10 md:text-left">
               <div className=" text-3xl font-extrabold text-gray-800 mt-3 md:mt-40 md:text-4xl">
                 Define. Decide. <span className="text-indigo-500">Design.</span>
               </div>
-              <div className="max-w-lg text-gray-900 mt-3 md:mt-4">
+              <div className="max-w-lg text-lg text-gray-900 mt-3 md:mt-3">
                 Hi there, I'm Edgar Louis and that's how I work. Bringing your
-                ideas into life by analyzing the root cause, defining the users'
-                need, solving the right problem, and designing the best
+                ideas into life by analyzing the root cause, defining the needs,
+                solving the right problem, and designing for the best
                 experience.
               </div>
               <div className="flex mt-8 justify-center items-center md:justify-start md:mt-8 ">
@@ -35,7 +35,7 @@ class Hero extends Component {
                   <img
                     src={linkedinDark}
                     alt=""
-                    className=" md:mr-8 hover:opacity-50"
+                    className="md:mr-10 hover:opacity-50"
                   />
                 </a>
                 <a
@@ -46,7 +46,7 @@ class Hero extends Component {
                   <img
                     src={dribbbleDark}
                     alt=""
-                    className="mx-16  md:mx-0 md:mr-8 hover:opacity-50"
+                    className="mx-16  md:mx-0 md:mr-10 hover:opacity-50"
                   />
                 </a>
                 <a
