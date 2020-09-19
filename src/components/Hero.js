@@ -62,7 +62,7 @@ class Hero extends Component {
                 </a>
               </div>
               <a href="mailto:louisedgar@ymail.com">
-                <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-8 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12">
+                <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-8 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
                   Let's collaborate!
                 </button>
               </a>
