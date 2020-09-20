@@ -16,7 +16,7 @@ class Hero extends Component {
             <div className="left-section md:ml-12 md:mt-12">
               <img src={image} alt="" />
             </div>
-            <div className="right-section text-center mx-3 md:ml-3 md:mr-10 md:text-left">
+            <div className="right-section text-center mx-3 mt-10 md:mt-0 md:ml-3 md:mr-10 md:text-left">
               <div className=" text-3xl font-extrabold text-gray-800 mt-3 md:mt-40 md:text-4xl">
                 Define. Decide. <span className="text-indigo-500">Design.</span>
               </div>
@@ -26,7 +26,7 @@ class Hero extends Component {
                 solving the right problem, and designing for the best
                 experience.
               </div>
-              <div className="flex mt-8 justify-center items-center md:justify-start md:mt-8 ">
+              <div className="flex mt-12 justify-center items-center md:justify-start md:mt-8 ">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -62,7 +62,7 @@ class Hero extends Component {
                 </a>
               </div>
               <a href="mailto:louisedgar@ymail.com">
-                <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-12 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
+                <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-16 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
                   Let's collaborate!
                 </button>
               </a>

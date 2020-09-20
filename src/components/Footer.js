@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import dribbbleWhite from "../assets/dribbbleWhite.svg";
 import linkedinWhite from "../assets/linkedinWhite.svg";
 import mediumWhite from "../assets/mediumWhite.svg";
-
+import profile from "../assets/profile.jpg";
 export class Footer extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ export class Footer extends Component {
             Get in touch
           </div>
           <div className="text-3xl font-bold mt-4 md:text-4xl md:mt-3">
-            Say hi and let's collaborate
+            Say hi & collaborate
           </div>
           <div className="font-normal text-lg mx-4 mt-8 md:w-2/5 md:mx-auto md:mt-8">
             Currently working as a freelance UX/UI Designer, I'm a
@@ -29,6 +29,7 @@ export class Footer extends Component {
               </button>
             </a>
           </div>
+
           <div className="flex flex-row mt-20 justify-center items-center">
             <a
               target="_blank"
@@ -65,9 +66,7 @@ export class Footer extends Component {
             </a>
           </div>
           <div className="mt-8 opacity-75 mx-16">
-            <small>
-              &#169; 2020 All right reserved - Designed & Coded by Edgar Louis
-            </small>
+            <small>&#169; 2020 - Designed & coded by Edgar Louis</small>
           </div>
         </div>
       </div>
