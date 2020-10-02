@@ -12,21 +12,21 @@ class Hero extends Component {
       <div>
         {/* Hero Section */}
         <div className="h-auto">
-          <div className="lg:container pt-5 md:pt-0 md:flex flex-wrap">
-            <div className="right-section text-center mx-2 mt-32 md:mt-0 md:mx-32  md:text-left">
-              <div className="text-xl font-semibold text-gray-800 mx-2 mt-3 md:mt-32 md:text-2xl ">
+          <div className="lg:container pt-5 md:pt-0 md:my-0 md:mx-auto md:flex flex-wrap md:justify-center">
+            <div className="right-section text-center mx-2 mt-24 md:mt-0 md:mx-32 md:text-center md:text-left">
+              <div className="text-xl font-semibold text-gray-800 mx-2 mt-3 md:mt-24 md:text-2xl ">
                 Hi, I'm Edgar Louis
               </div>
-              <div className=" text-2xl font-extrabold text-gray-800 mx-2 mt-12 md:mt-10 md:ml-6 md:text-5xl md:tracking-wide">
+              <div className=" text-3xl font-bold mx-auto md:font-extrabold text-gray-800 mx-2 mt-12 md:mt-10 md:ml-6 md:text-5xl md:tracking-wide">
                 "Define. Decide.{" "}
                 <span className="text-indigo-500">Design."</span>
               </div>
-              <div className="mx-2 text-xl text-gray-900 mt-10  md:max-w-2xl md:mt-16 md:tracking-normal">
-                I bring your ideas into life by analyzing the root cause,
-                defining the needs, solving the right problem, and designing for
-                the best experience.
+              <div className="mx-2 text-lg text-gray-900 mt-10  md:max-w-2xl md:text-2xl md:mt-12 md:tracking-normal ">
+                I help you bring your ideas into life by analyzing the root
+                cause, defining the needs, solving the right problem, and
+                designing for the best experience.
               </div>
-              <div className="flex mt-10 justify-center mx-2 items-center mt-10 md:justify-start md:mt-8 ">
+              <div className="flex mt-10 justify-center mx-2 items-center mt-10 md:justify-center md:mt-12 ">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -58,7 +58,7 @@ class Hero extends Component {
                 </a>
               </div>
               <a href="mailto:louisedgar@ymail.com">
-                <button className="bg-indigo-500 text-white font-semibold mx-2 hover:bg-indigo-400 py-4 px-8 mt-10 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
+                <button className="bg-indigo-500 text-white font-semibold mx-2 hover:bg-indigo-400 py-4 px-8 mt-12 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
                   Let's collaborate
                 </button>
               </a>
