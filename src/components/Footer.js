@@ -24,7 +24,7 @@ export class Footer extends Component {
 
           <div className="mx-3 mt-8">
             <a href="mailto:louisedgar@ymail.com">
-              <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-8 rounded-lg md:w-48 md:py-4 md:px-3 rounded-lg md:mt-8 shadow-lg">
+              <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-48 md:py-4 md:px-3 rounded-lg md:mt-8 shadow-lg">
                 Contact me
               </button>
             </a>
@@ -66,7 +66,7 @@ export class Footer extends Component {
             </a>
           </div>
           <div className="mt-8 opacity-75 mx-16">
-            <small>&#169; 2020 - Designed & coded by Edgar Louis</small>
+            <small>&#169; 2020 Designed & coded by Edgar Louis</small>
           </div>
         </div>
       </div>

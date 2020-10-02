@@ -9,9 +9,9 @@ export class Content extends Component {
       <div>
         <div>
           {/* AQimos */}
-          <div className="w-11/12 justify-center mt-32 md:mt-12 mb-0 mx-auto">
+          <div className="w-11/12 justify-center mt-32 md:mt-32 mb-0 mx-auto">
             <img src={aqimos} alt="" className="my-0 mx-auto"></img>
-            <div className="md:flex md:flex-row md:flex-auto  md:mt-4 md:mx-20 md:items-start">
+            <div className="md:flex md:flex-row md:flex-auto md:mt-4 md:mx-20 md:items-start">
               <div className="text-2xl font-semibold text-gray-900 mt-6 md:mt-4 md:w-2/4 flex-initial">
                 Aqimos
               </div>

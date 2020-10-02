@@ -13,20 +13,20 @@ class Hero extends Component {
         {/* Hero Section */}
         <div className="h-auto">
           <div className="lg:container pt-5 md:pt-0 md:flex flex-wrap">
-            <div className="left-section md:ml-12 md:mt-12">
-              <img src={image} alt="" />
-            </div>
-            <div className="right-section text-center mx-3 mt-10 md:mt-0 md:ml-3 md:mr-10 md:text-left">
-              <div className=" text-3xl font-extrabold text-gray-800 mt-3 md:mt-40 md:text-4xl">
-                Define. Decide. <span className="text-indigo-500">Design.</span>
+            <div className="right-section text-center mx-2 mt-32 md:mt-0 md:mx-32  md:text-left">
+              <div className="text-xl font-semibold text-gray-800 mx-2 mt-3 md:mt-32 md:text-2xl ">
+                Hi, I'm Edgar Louis
               </div>
-              <div className="max-w-lg text-lg text-gray-900 mt-3 md:mt-3">
-                Hi there, I'm Edgar Louis and that's how I work. Bringing your
-                ideas into life by analyzing the root cause, defining the needs,
-                solving the right problem, and designing for the best
-                experience.
+              <div className=" text-2xl font-extrabold text-gray-800 mx-2 mt-12 md:mt-10 md:ml-6 md:text-5xl md:tracking-wide">
+                "Define. Decide.{" "}
+                <span className="text-indigo-500">Design."</span>
               </div>
-              <div className="flex mt-12 justify-center items-center md:justify-start md:mt-8 ">
+              <div className="mx-2 text-xl text-gray-900 mt-10  md:max-w-2xl md:mt-16 md:tracking-normal">
+                I bring your ideas into life by analyzing the root cause,
+                defining the needs, solving the right problem, and designing for
+                the best experience.
+              </div>
+              <div className="flex mt-10 justify-center mx-2 items-center mt-10 md:justify-start md:mt-8 ">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -35,7 +35,7 @@ class Hero extends Component {
                   <img
                     src={linkedinDark}
                     alt=""
-                    className="md:mr-10 hover:opacity-50"
+                    className="md:mr-12 hover:opacity-50"
                   />
                 </a>
                 <a
@@ -46,7 +46,7 @@ class Hero extends Component {
                   <img
                     src={dribbbleDark}
                     alt=""
-                    className="mx-16  md:mx-0 md:mr-10 hover:opacity-50"
+                    className="mx-16  md:mx-0 md:mr-12 hover:opacity-50"
                   />
                 </a>
                 <a
@@ -54,28 +54,22 @@ class Hero extends Component {
                   rel="noopener noreferrer"
                   href="https://medium.com/@louisedgar"
                 >
-                  <img
-                    src={mediumDark}
-                    alt=""
-                    className="md:mr-8 hover:opacity-50"
-                  />
+                  <img src={mediumDark} alt="" className="hover:opacity-50" />
                 </a>
               </div>
               <a href="mailto:louisedgar@ymail.com">
-                <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-300 w-full py-4 px-3 mt-16 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
-                  Let's collaborate!
+                <button className="bg-indigo-500 text-white font-semibold mx-2 hover:bg-indigo-400 py-4 px-8 mt-10 md:w-48 md:py-4 md:px-3 rounded-lg md:mt-12 shadow-lg">
+                  Let's collaborate
                 </button>
               </a>
             </div>
           </div>
         </div>
 
-        {/* Content Section */}
         <div>
           <Content />
         </div>
 
-        {/* Footer Section */}
         <div>
           <Footer />
         </div>
