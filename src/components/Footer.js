@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import dribbbleWhite from "../assets/dribbbleWhite.svg";
 import linkedinWhite from "../assets/linkedinWhite.svg";
 import mediumWhite from "../assets/mediumWhite.svg";
-import profile from "../assets/profile.jpg";
 export class Footer extends Component {
   render() {
     return (
