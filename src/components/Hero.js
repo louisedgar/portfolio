@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import image from "../assets/image.png";
 import linkedinDark from "../assets/linkedinDark.svg";
 import mediumDark from "../assets/mediumDark.svg";
 import dribbbleDark from "../assets/dribbbleDark.svg";
@@ -20,7 +19,7 @@ class Hero extends Component {
               <div className=" text-3xl font-bold mx-auto md:font-extrabold text-gray-900 mx-2 mt-8 md:mt-5 md:text-5xl md:mx-0 ">
                 Define. Decide. <span className="text-indigo-500">Design.</span>
               </div>
-              <div className="mx-2 text-lg text-gray-800 mt-8 md:max-w-2xl md:text-xl md:mt-5 md:leading-6 md:mx-0">
+              <div className="text-lg font-normal text-gray-900 mt-8 md:max-w-2xl md:text-xl md:mt-5 md:leading-6 md:mx-0">
                 I help you bring your ideas into life by analyzing the root
                 cause, defining the needs, solving the right problem, and
                 designing for the best experience.
@@ -45,7 +44,7 @@ class Hero extends Component {
                   <img
                     src={dribbbleDark}
                     alt=""
-                    className="mx-16 opacity-75 md:mx-0 md:mr-12 hover:opacity-100"
+                    className="opacity-75 mx-16 md:mx-0 md:mr-12 hover:opacity-100"
                   />
                 </a>
                 <a
