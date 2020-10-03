@@ -16,7 +16,7 @@ class Hero extends Component {
               <div className="text-xl font-semibold text-gray-900 mx-2 mt-3 md:mt-40 md:text-2xl md:mx-0 ">
                 Hi, I'm Edgar Louis -
               </div>
-              <div className=" text-3xl font-bold mx-auto md:font-extrabold text-gray-900 mx-2 mt-8 md:mt-5 md:text-5xl md:mx-0 ">
+              <div className=" text-3xl font-bold mx-auto md:font-bold text-gray-900 mx-2 mt-8 md:mt-5 md:text-5xl md:mx-0 ">
                 Define. Decide. <span className="text-indigo-500">Design.</span>
               </div>
               <div className="text-lg font-normal text-gray-900 mt-8 md:max-w-2xl md:text-xl md:mt-5 md:leading-6 md:mx-0">
