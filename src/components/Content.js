@@ -3,6 +3,7 @@ import aqimos from "../assets/aqimos.png";
 import formbuilder from "../assets/formbuilder.png";
 import mantis from "../assets/mantis.png";
 import co from "../assets/co.png";
+import { Link } from "react-router-dom";
 
 
 export class Content extends Component {
@@ -23,7 +24,7 @@ export class Content extends Component {
                   chat, create their own server and channel to make
                   collaboration with their peers easier.
                   <div className="mt-3 text-1xl text-indigo-500 hover:text-indigo-800">
-                    <a href="/co">Read more</a>
+                    <Link to="/co"><a href="/co">Read more</a></Link>
                   </div>
                 </div>
               </div>
@@ -46,7 +47,7 @@ export class Content extends Component {
                   work is to present the complex data while ensuring the
                   simplicity and easiness of use.
                   <div className="mt-3 text-1xl text-indigo-500 hover:text-indigo-800">
-                    <a href="/aqimos">Read more</a>
+                    <Link to="/aqimos"><a href="/aqimos">Read more</a></Link>
                   </div>
                 </div>
               </div>
@@ -66,7 +67,7 @@ export class Content extends Component {
                   only provide a positive experience for the builder but also
                   for the preparer.
                   <div className="mt-3 text-1xl text-indigo-500 hover:text-indigo-800">
-                    <a href="/formbuilder">Read more </a>
+                    <Link to="/formbuilder"><a href="/formbuilder">Read more </a></Link>
                   </div>
                 </div>
               </div>
@@ -88,7 +89,7 @@ export class Content extends Component {
                   assist the stakeholders to make decision based on the
                   prioritized data being presented.
                   <div className="mt-3 text-1xl text-indigo-500 hover:text-indigo-800">
-                    <a href="/mantis">Read more</a>
+                    <Link to="/mantis"><a href="/mantis">Read more</a></Link>
                   </div>
                 </div>
               </div>

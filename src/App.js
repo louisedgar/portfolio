@@ -5,47 +5,29 @@ import Co from "./pages/Co";
 import Aqimos from "./pages/Aqimos";
 import Formbuilder from "./pages/Formbuilder";
 import Mantis from "./pages/Mantis";
-
-const home = () => {
-  if (window.location.pathname === "/" || window.location.pathname === " ") {
-    return <Home/>
-  }
-}
-
-const co = () => {
-  if (window.location.pathname === "/co") {
-    return <Co/>
-  }
-}
-
-const aqimos = () => {
-  if (window.location.pathname === "/aqimos") {
-    return <Aqimos/>
-  }
-}
-
-const formbuilder = () => {
-  if (window.location.pathname === "/formbuilder") {
-    return <Formbuilder/>
-  }
-}
-
-const mantis = () => {
-  if (window.location.pathname === "/mantis") {
-    return <Mantis/>
-  }
-}
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App ">
-      {home()}
-      {co()}
-      {aqimos()}
-      {formbuilder()}
-      {mantis()}
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+        <Route path="/co">
+          <Co/>
+        </Route>
+        <Route path="/aqimos">
+          <Aqimos/>
+        </Route>
+        <Route path="/formbuilder">
+          <Formbuilder/>
+        </Route>
+        <Route path="/mantis">
+          <Mantis/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
