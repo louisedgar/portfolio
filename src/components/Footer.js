@@ -13,9 +13,9 @@ export class Footer extends Component {
           <div className="text-3xl font-bold mt-4 md:text-4xl md:mt-3">
             Say hi & collaborate
           </div>
-          <div className="font-normal text-lg mx-4 mt-8 md:w-2/5 md:mx-auto md:mt-8">
+          <div className="font-normal text-lg mx-6 mt-8 md:w-2/5 md:mx-auto md:mt-8">
             Currently working as a freelance UX/UI Designer, I'm a
-            strive-to-learn person with a passion in technology, design, and
+            strive to learn person with a passion in technology, design, and
             writing. If you have an idea for web and app, passionate in giving a
             good impact, and try to solve problems, don't hesitate to contact
             me.
