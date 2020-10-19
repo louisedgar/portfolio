@@ -14,6 +14,7 @@ export default function Aqimos() {
     <div className="max-w-5xl mx-auto mt-12 text-gray-900 md:mt-20">
       <h1 className="mx-6 text-2xl font-semibold md:ml-16 md:text-4xl">AQimos</h1>
       <p className="mx-6 text-xl text-gray-700 md:ml-16 md:text-2xl">Desktop and Mobile Web App - 2020</p>
+     
       <div className="mt-24">
         <div className="mx-6 md:mx-auto">
           <img src={AqimosDetail} alt="" className="mx-auto"/>
