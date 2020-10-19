@@ -7,12 +7,22 @@ import Formbuilder from "./pages/Formbuilder";
 import Mantis from "./pages/Mantis";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop';
+import AnimatedCursor from "react-animated-cursor"
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <AnimatedCursor
+      innerSize={20}
+      outerSize={20}
+      color='213, 63, 140'
+      outerAlpha={0.2}
+      innerScale={0.7}
+      outerScale={3}
+    />
       <Switch>
+        
         <Route exact path="/">
           <Home/>
         </Route>
