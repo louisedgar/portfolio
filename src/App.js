@@ -6,10 +6,12 @@ import Aqimos from "./pages/Aqimos";
 import Formbuilder from "./pages/Formbuilder";
 import Mantis from "./pages/Mantis";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route exact path="/">
           <Home/>

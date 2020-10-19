@@ -13,7 +13,7 @@ export class Footer extends Component {
           <div className="text-3xl font-bold mt-4 md:text-4xl md:mt-3">
             Say hi & collaborate
           </div>
-          <div className="font-normal text-lg mx-6 mt-8 md:w-2/5 md:mx-auto md:mt-8">
+          <div className="font-normal text-lg mx-6 mt-8 md:w-2/4 md:text-xl md:mx-auto md:mt-8">
             Currently working as a freelance UX/UI Designer, I'm a
             strive to learn person with a passion in technology, design, and
             writing. If you have an idea for web and app, passionate in giving a
@@ -23,7 +23,7 @@ export class Footer extends Component {
 
           <div className="mx-3 mt-8">
             <a href="mailto:louisedgar@ymail.com">
-              <button className="bg-indigo-500 text-white font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-48 md:py-4 md:px-3 rounded-lg md:mt-8 shadow-lg">
+              <button className="bg-indigo-500 text-white text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-48 md:py-4 md:px-3 rounded-lg md:mt-8 shadow-lg transition duration-500 ease-in-out bg-blue-500 hover:bg-red-500 transform hover:-translate-y-1 hover:scale-110">
                 Contact me
               </button>
             </a>
