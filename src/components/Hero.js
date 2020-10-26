@@ -8,16 +8,16 @@ class Hero extends Component {
     return (
       <div>
         {/* Hero Section */}
-        <div className="h-auto max-w-5xl mx-auto ">
+        <div className="h-auto max-w-4xl mx-auto ">
           <div className=" pt-5 md:pt-0 md:my-0 md:justify-start md:flex ">
             <div className="right-section text-left mx-4 mt-24 md:mt-0 md:mx-0 md:text-left md:justify-start">
-              <div className="text-xl font-semibold text-gray-900 mx-2 mt-3 md:mt-40 md:text-2xl md:mx-0 ">
+              <div className="text-xl font-semibold text-gray-900 mx-2 mt-3 md:mt-32 md:text-2xl md:mx-0 ">
                 Hi, I'm Edgar Louis -
               </div>
-              <div className="text-3xl font-bold mx-2 md:font-bold text-gray-900 mx-2 mt-5 md:mt-5 md:text-5xl md:mx-0 ">Define. Decide. <span className="text-indigo-500">Design.</span>
+              <div className="text-4xl font-bold mx-2 md:font-bold text-gray-900 mx-2 mt-5 md:mt-5 md:text-5xl md:mx-0 ">Define. Decide. <span className="text-indigo-500">Design.</span>
               </div>
-              <div className="text-lg font-normal text-gray-700 mt-5 mx-2 md:max-w-2xl md:text-xl md:mt-5 md:leading-6 md:mx-0">
-                I help you bring your ideas into life by analyzing the root
+              <div className="text-xl font-light text-gray-800 mt-5 mx-2 md:max-w-2xl md:text-2xl md:mt-5 md:leading-8 md:mx-0">
+                I help you bring your ideas come into life by analyzing the root
                 cause, defining the needs, solving the right problem, and
                 designing for the best experience.
               </div>
@@ -30,7 +30,7 @@ class Hero extends Component {
                   <img
                     src={linkedinDark}
                     alt=""
-                    className="opacity-75 md:mr-12 hover:opacity-100"
+                    className="opacity-75 md:mr-12 hover:opacity-100 hover:shadow-lg"
                   />
                 </a>
                 <a
@@ -41,7 +41,7 @@ class Hero extends Component {
                   <img
                     src={dribbbleDark}
                     alt=""
-                    className="opacity-75 mx-12 md:mx-0 md:mr-12 hover:opacity-100"
+                    className="opacity-75 mx-12 md:mx-0 md:mr-12 hover:opacity-100 hover:shadow-lg"
                   />
                 </a>
                 <a
@@ -52,7 +52,7 @@ class Hero extends Component {
                   <img
                     src={mediumDark}
                     alt=""
-                    className="opacity-75 hover:opacity-100"
+                    className="opacity-75 hover:opacity-100 hover:shadow-lg"
                   />
                 </a>
               </div>
