@@ -6,7 +6,7 @@ export class Footer extends Component {
   render() {
     return (
       <div>
-        <div className="bg-gray-900 text-white mt-24 pb-10 text-center md:mt-40 w-full">
+        <div className="bg-gray-900 text-white mt-24 pb-10 text-center md:mt-40 w-full" id="about">
           <div className="text-1xl font-thin pt-12 md:text-2xl">
             Get in touch
           </div>
