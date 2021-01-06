@@ -13,7 +13,7 @@ export class Content extends Component {
         <div>
         <div className="max-w-5xl mx-auto" id="work">
           {/* Mantis*/}
-            <div className="md:text-left md:justify-start mt-16 md:mt-32 mb-0">
+            <div className="md:text-left md:justify-start mt-16 md:mt-16 mb-0">
               <div className="flex flex-col flex-col-reverse md:flex-row md:flex-auto md:text-left md:justify-start">
                 <div className="mx-4 mt-6 text-gray-900 font-light md:text-xl md:w-1/3 flex-initial md:text-left md:justify-start md:ml-0 md:mr-16">
                   <div className="font-semibold text-gray-500 text-sm">
@@ -24,7 +24,7 @@ export class Content extends Component {
                     iGauge Logger
                      </a>
                   </div>
-                  <div className="mt-2 text-gray-700">
+                  <div className="mt-2 text-gray-900">
                   iGauge Logger is more about water pressure and decision
                     making. It keeps track of water pressure for pipelines that
                     spread across the city. The data is used by the stakeholders
@@ -64,7 +64,7 @@ export class Content extends Component {
                     Formbuilder
                   </a>
                   </div>
-                  <div className="mt-2 text-gray-700">
+                  <div className="mt-2 text-gray-900">
                     A formbuilding software for a organization internal use. I'm
                     responsible to create a system that ensure the users to
                     generate a consistent form - for any necessity - which not
@@ -96,7 +96,7 @@ export class Content extends Component {
                     AQimos
                   </a>
                   </div>
-                  <div className="mt-2 text-gray-700">
+                  <div className="mt-2 text-gray-900">
                   AQimos is a software that monitor and track the air
                   composition. The devices surronding a particular area sent
                   data accordingly by the back-end that provides API.
@@ -136,7 +136,7 @@ export class Content extends Component {
                     Co - a collaboration platform
                    </a>
                   </div>
-                  <div className="mt-2 text-gray-700">
+                  <div className="mt-2 text-gray-900">
                     Co. is a web app that serve as collaboration tool. Users can
                     chat, create their own server and channel to make
                     collaboration with their peers easier.

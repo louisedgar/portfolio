@@ -6,7 +6,11 @@ module.exports = {
       body: ["SF Pro Display", "sans-serif"],
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero-img': "url('../src/assets/bg.png')"
+      })
+    },
   },
   variants: {},
   plugins: [],
