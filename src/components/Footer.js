@@ -14,14 +14,14 @@ export class Footer extends Component {
             Say hi & collaborate
           </div>
           <div className="font-normal text-lg mx-6 mt-8 md:w-2/4 md:text-xl md:mx-auto md:mt-8">
-            Currently working as a freelance UX/UI Designer, and in my spare time, I enjoy writing and sharing about design, technology, and stories. If you have an idea for web and app, passionate in giving a
+            Hi! I'm Edgar. Currently working as a freelance UX/UI Designer, in my spare time, I enjoy writing and sharing about design, technology, and stories. If you have an idea for web and app, passionate in giving a
             good impact, and try to solve problems, don't hesitate to contact
             me.
           </div>
 
           <div className="mx-3 mt-8">
             <a href="mailto:design@edgarlouis.com">
-              <button className="bg-indigo-500 text-white text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-lg  bg-blue-500 hover:bg-red-500 transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out">
+              <button className="bg-indigo-600 text-white text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-lg transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out">
                 design@edgarlouis.com
               </button>
             </a>

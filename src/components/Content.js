@@ -13,14 +13,16 @@ export class Content extends Component {
         <div>
         <div className="max-w-5xl mx-auto ">
           {/* Mantis*/}
-            <div className="md:text-left md:justify-start mt-32 mb-0">
+            <div className="md:text-left md:justify-start mt-24 md:mt-32 mb-0">
               <div className="flex flex-col flex-col-reverse md:flex-row md:flex-auto md:text-left md:justify-start">
                 <div className="mx-6 mt-6 text-lg text-gray-900 font-light md:text-xl md:w-1/3 flex-initial md:text-left md:justify-start md:ml-0 md:mr-16">
                   <div className="font-semibold text-gray-600 text-sm">
                     UI Design - UX Design - Front-end
                   </div>
                   <div className="font-bold mt-2 md:text-2xl hover:text-indigo-600">
+                    <a href="https://medium.com/design-bootcamp/case-study-water-pressure-monitoring-web-app-21be037e0097" target="blank">
                     iGauge Logger
+                     </a>
                   </div>
                   <div className="mt-2 text-gray-700">
                   iGauge Logger is more about water pressure and decision
@@ -30,9 +32,9 @@ export class Content extends Component {
                     city water supply. 
                   </div>
                   
-                  <div className="mt-2">
-                    <a href="" target="blank">
-                      <button className="bg-white border-indigo-500 text-gray-900 text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
+                  <div>
+                    <a href="https://medium.com/design-bootcamp/case-study-water-pressure-monitoring-web-app-21be037e0097" target="blank">
+                      <button className="bg-white border-indigo-500 text-gray-900 text-base font-semibold hover:bg-indigo-500 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
                         Read case study
                       </button>
                     </a>
@@ -63,16 +65,16 @@ export class Content extends Component {
                   </a>
                   </div>
                   <div className="mt-2 text-gray-700">
-                    A formbuilding software for a corporate internal use. We are
+                    A formbuilding software for a organization internal use. I'm
                     responsible to create a system that ensure the users to
                     generate a consistent form - for any necessity - which not
                     only provide a positive experience for the builder but also
                     for the preparer.
                   </div>
                   
-                  <div className="mt-2">
+                  <div>
                     <a href="https://medium.com/design-bootcamp/building-a-custom-form-builder-fb879ae53085" target="blank">
-                      <button className="bg-white border-indigo-500 text-gray-900 text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
+                      <button className="bg-white border-indigo-500 text-gray-900 text-base font-semibold hover:bg-indigo-500 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
                         Read case study
                       </button>
                     </a>
@@ -102,9 +104,9 @@ export class Content extends Component {
                   by the person in charge to measure the quality of the air. 
                   </div>
                   
-                  <div className="mt-2">
+                  <div>
                     <a href="https://louisedgar.medium.com/redesigning-aqimos-4f415ef6e39e" target="blank">
-                      <button className="bg-white border-indigo-500 text-gray-900 text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
+                      <button className="bg-white border-indigo-500 text-gray-900 text-base font-semibold hover:bg-indigo-500 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
                         Read case study
                       </button>
                     </a>
@@ -140,9 +142,9 @@ export class Content extends Component {
                     collaboration with their peers easier.
                   </div>
                   
-                  <div className="mt-2">
+                  <div>
                     <a href="https://louisedgar.medium.com/co-a-collaboration-messaging-platform-simplified-6ce26389345d" target="blank">
-                      <button className="bg-white border-indigo-500 text-gray-900 text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
+                      <button className="bg-white border-indigo-500 text-gray-900 text-base font-semibold hover:bg-indigo-500 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-md bg-white hover:text-white">
                         Read case study
                       </button>
                     </a>

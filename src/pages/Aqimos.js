@@ -1,18 +1,12 @@
 import React from 'react';
-import AqimosDetail from "../assets/aqimos/AqimosDetail.png"
-import BasicFlow from "../assets/aqimos/BasicFlow.png"
-import ContentAudit from "../assets/aqimos/ContentAudit.png"
-import DashboardFlow from "../assets/aqimos/DashboardFlow.png"
-import NewAqimos from "../assets/aqimos/NewAqimos.png"
-import OldAqimos from "../assets/aqimos/OldAqimos.png"
-import Wireframe from "../assets/aqimos/Wireframe.png"
+
 import { Link } from "react-router-dom";
 
 
 export default function Aqimos() {
   return (
     <div className="bg-gray-100 bg-opacity-50">
-    <div className="max-w-5xl mx-auto pt-10 text-gray-900 md:pt-12">
+    {/* <div className="max-w-5xl mx-auto pt-10 text-gray-900 md:pt-12">
       <h1 className="mx-6 text-3xl font-semibold md:ml-16 md:text-4xl">Redesigning AQimos<span className="text-blue-400 font-black text-3xl md:text-4xl">.</span></h1>
       <p className="mx-6 text-lg text-gray-800 font-light md:ml-16 md:text-xl">Desktop & Mobile Web App - 2020</p>
      
@@ -116,7 +110,7 @@ export default function Aqimos() {
       <div className="underline mt-3 pb-16 text-lg mx-6 max-w-3xl md:pb-24 md:mx-auto md:text-xl text-indigo-500 hover:text-indigo-800">
         <Link to="/"><a href="/">See other projects</a></Link>
       </div>
-      </div>
+      </div> */}
       </div>
   )
 }
