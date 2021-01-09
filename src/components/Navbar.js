@@ -5,21 +5,21 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-4 navbar-expand-lg bg-white border-gray-900 divide-gray-900 shadow-md">
-        <div className="container px-4 md:px-16 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-2 navbar-expand-lg bg-white border-gray-900 divide-gray-900 shadow-sm">
+        <div className="container px-2 md:px-16 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-gray-900"
-              href="#pablo"
+              className="text-xl font-semibold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-gray-900"
+              href="#"
             >
-              Edgar <span className="text-indigo-700">Louis</span>
+              Edgar<span className="font-medium text-gray-500">Louis</span>
             </a>
             <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-gray-700 cursor-pointer text-xl leading-none px-2 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="fas fa-bars text-gray-700"></i>
+              <i className="fas fa-bars text-gray-900"></i>
             </button>
           </div>
           <div
@@ -43,7 +43,7 @@ export default function Navbar({ fixed }) {
                         className="px-3 py-2 flex items-center text-md leading-snug text-gray-700 hover:opacity-75"
                         href="#work"
                         >
-                            <i className="text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Work</span>
+                            <i className="text-lg leading-lg opacity-75"></i><span className="ml-2">Work</span>
                         </a>
                     </Link>
               </li>
@@ -60,7 +60,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-md leading-snug text-gray-700 hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="text-lg leading-lg text-white opacity-75"></i><span className="ml-2 md:ml-6">About</span>
+                  <i className="text-lg leading-lg opacity-75"></i><span className="ml-2 md:ml-6">Contact</span>
                                   </a>
                                   </Link>
               </li>

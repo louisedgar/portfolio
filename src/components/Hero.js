@@ -2,19 +2,24 @@ import React, { Component } from "react";
 import linkedinDark from "../assets/linkedinDark.svg";
 import mediumDark from "../assets/mediumDark.svg";
 import dribbbleDark from "../assets/dribbbleDark.svg";
+import {Animated} from "react-animated-css";
 
 class Hero extends Component {
   render() {
-    return (
+    return (<Animated animationIn="fadeIn" isVisible={true}>
       <div className="md:bg-hero-img md:bg-cover md:bg-right-top md:pb-24 h-auto">
         {/* Hero Section */}
+        
         <div className="max-w-5xl mx-auto ">
-          <div className=" pt-5 md:pt-0 md:my-0 md:justify-start md:flex ">
+          <div className="pt-5 md:pt-0 md:my-0 md:justify-start md:flex ">
             <div className="mx-2 mt-6 md:mt-16 md:mx-0 md:text-left md:justify-start">
-              <div className="text-6xl leading-tight font-bold md:font-bold text-black mx-2 mt-5 md:mt-5 md:text-6xl md:mx-0 ">UI/UX <span className="text-black">Designer</span>
-              </div>
-              <div className="text-xl text-gray-700 mt-5 mx-2 md:max-w-xl md:text-2xl md:mt-5 md:leading-8 md:mx-0">
-                I thrive in making usable, accessible, and desirable products. Helping people bring their ideas come into life by analyzing the root
+              <Animated animationIn="fadeInUp" isVisible={true}>
+              <div className="text-6xl leading-tight font-bold md:font-bold text-black mx-2 mt-5 md:mt-8 md:text-6xl md:mx-0 ">UI/UX <span className="text-black">Designer</span>
+                </div>
+              </Animated>
+              <Animated animationIn="fadeInUp" isVisible={true}>
+              <div className="text-xl text-gray-700 mt-5 mx-2 md:max-w-lg md:text-2xl md:mt-5 md:leading-8 md:mx-0">
+                I thrive in making usable, accessible, and desirable products - by analyzing the root
                 cause, defining the needs, solving the right problem, and
                 designing for the best experience.
               </div>
@@ -60,13 +65,13 @@ class Hero extends Component {
                   </button>
                 </a>
               </div>
-            </div>
-            <div>
-              <img></img>
+           </Animated>
             </div>
           </div>
-        </div>
+          </div>
+          
       </div>
+      </Animated>
     );
   }
 }
