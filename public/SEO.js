@@ -14,6 +14,7 @@ function SEO() {
                 cause, defining the needs, solving the right problem, and
                 designing for the best experience."/>
       <meta name="theme-color" content="#ffffff" />
+      <meta name="google-site-verification" content="82zI76PTd7szd1-fQDJ9rWe1gT6R5O1cVkax1bkF_BU" />
     </Helmet>
   );
 }
