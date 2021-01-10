@@ -5,11 +5,11 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-2 navbar-expand-lg bg-white border-gray-900 divide-gray-900 shadow-sm">
-        <div className="container px-2 md:px-16 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-1 navbar-expand-lg bg-white border-gray-900 divide-gray-900 shadow-sm">
+        <div className="container px-2 md:px-4 lg:px-16 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-xl font-semibold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-gray-900"
+              className="text-lg font-semibold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-gray-900"
               href="#"
             >
               Edgar<span className="font-medium text-gray-500">Louis</span>
