@@ -7,12 +7,12 @@ import {Animated} from "react-animated-css";
 class Hero extends Component {
   render() {
     return (<Animated animationIn="fadeIn" isVisible={true}>
-      <div className="md:bg-hero-img md:bg-cover md:bg-right-top md:pb-24 h-auto">
+      <div className="md:bg-hero-img md:bg-cover md:bg-no-repeat md:bg-center md:pb-24 h-auto px-2 md:px-10 lg:px-16">
         {/* Hero Section */}
         
-        <div className="max-w-5xl mx-auto ">
+        <div className="max-w-6xl mx-auto">
           <div className="pt-5 md:pt-0 md:my-0 md:justify-start md:flex ">
-            <div className="mx-2 mt-6 md:mt-16 md:mx-0 md:text-left md:justify-start">
+            <div className="mt-6 md:mt-16 md:text-left md:justify-start">
               <Animated animationIn="fadeInUp" isVisible={true}>
               <div className="text-6xl leading-tight font-bold md:font-bold text-black mx-2 mt-5 md:mt-8 md:text-6xl md:mx-0 ">UI/UX <span className="text-black">Designer</span>
                 </div>
