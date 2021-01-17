@@ -21,7 +21,7 @@ export class Footer extends Component {
 
           <div className="mx-3 mt-8">
             <a href="mailto:design@edgarlouis.com">
-              <button className="bg-indigo-600 text-white text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-lg transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out">
+              <button className="bg-primary text-white text-lg font-semibold hover:opacity-75 py-4 px-8 mt-8 rounded-lg md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-lg">
                 design@edgarlouis.com
               </button>
             </a>
