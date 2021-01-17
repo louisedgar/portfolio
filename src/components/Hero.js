@@ -7,7 +7,7 @@ import {Animated} from "react-animated-css";
 class Hero extends Component {
   render() {
     return (<Animated animationIn="fadeIn" isVisible={true}>
-      <div className="md:bg-hero-img md:bg-cover md:bg-no-repeat md:bg-center md:pb-24 h-auto px-2 md:px-10 lg:px-16">
+      <div className="md:bg-hero-img md:bg-cover md:bg-no-repeat md:bg-right md:pb-24 h-auto px-2 md:px-10 lg:px-16">
         {/* Hero Section */}
         
         <div className="max-w-6xl mx-auto">
@@ -60,7 +60,7 @@ class Hero extends Component {
               </div>
               <div className="mt-6">
                 <a href="mailto:design@edgarlouis.com">
-                  <button className="bg-indigo-600 text-white text-lg font-semibold hover:bg-indigo-400 py-4 px-8 mt-4 mx-2 rounded-lg md:mx-0 md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-lg">
+                  <button className="bg-primary text-white text-lg font-semibold hover:opacity-75 py-4 px-8 mt-4 mx-2 rounded-lg md:mx-0 md:w-auto md:py-4 md:px-4 rounded-lg md:mt-8 shadow-lg">
                     Let's collaborate
                   </button>
                 </a>

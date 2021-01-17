@@ -12,7 +12,7 @@ export default function Navbar({ fixed }) {
               className="text-lg font-semibold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-gray-900"
               href="#"
             >
-              Edgar<span className="font-medium text-gray-500">Louis</span>
+              Edgar<span className="font-thin text-gray-900">Louis</span>
             </a>
             <button
               className="text-gray-700 cursor-pointer text-xl leading-none px-2 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
