@@ -2,8 +2,8 @@ module.exports = {
   purge: [],
   theme: {
     fontFamily: {
-      display: ["SF Pro Display", "sans-serif"],
-      body: ["SF Pro Display", "sans-serif"],
+      display: ["Proxima Nova", "sans-serif"],
+      body: ["Proxima Nova", "sans-serif"],
     },
 
     backgroundColor: theme => ({
@@ -13,7 +13,7 @@ module.exports = {
 
     extend: {
       backgroundImage: theme => ({
-        'hero-img': "url('../src/assets/bg.png')"
+        'hero-img': "url('../src/assets/bg.png')",
       }),
       colors: {
         'accent': '#3332E5'
