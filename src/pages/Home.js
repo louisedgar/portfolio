@@ -5,7 +5,6 @@ import Mantis from "../assets/project-mantis.png";
 import Aqimos from "../assets/project-aqimos.png";
 import Formbuilder from "../assets/project-formbuilder.png";
 import Co from "../assets/project-co.png";
-import CTA from "../assets/cta-img.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Digify from "../assets/Digify.png";
 import Profile from "../assets/MOOC-Profile.png";
@@ -16,6 +15,7 @@ import Nimble from "../assets/Nimble.png";
 import Livestream from "../assets/Livestreaming-Web.png";
 import Autoroom from "../assets/Autoroom.png";
 import Move from "../assets/Move.png";
+import ThreeD from "../assets/3d.png";
 
 export default function Home() {
   return (
@@ -510,8 +510,8 @@ export default function Home() {
       </div>
 
       {/* CTA */}
-      <div className="w-full bg-indigo-700">
-        <div className="container max-w-5xl bg-indigo-700 overflow-hidden relative mx-auto">
+      <div className="w-full bg-indigo-600">
+        <div className="container max-w-5xl bg-indigo-600 overflow-hidden relative mx-auto ">
           <div className="text-start w-1/2 py-12 lg:py-20  z-20" id="about">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
               <span className="block">Say hi and let's collaborate!</span>
@@ -527,7 +527,7 @@ export default function Home() {
                 <a href="mailto:hello@edgarlouis.com">
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400 transition duration-150 ease-in-out"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-indigo-400 hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
                   >
                     hello@edgarlouis.com
                   </button>
@@ -536,8 +536,8 @@ export default function Home() {
             </div>
           </div>
           <img
-            src={CTA}
-            className="absolute h-full max-w-1/2 hidden lg:block right-0 top-0"
+            src={ThreeD}
+            className="absolute h-full max-w-1/2 hidden lg:block right-0 top-0 transform scale-75"
             alt=""
           />
         </div>
