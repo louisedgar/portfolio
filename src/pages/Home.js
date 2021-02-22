@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       {/* Hero */}
-      <header className="w-full px-2 text-gray-700 bg-gradient-to-r from-indigo-600 to-blue-300 ">
+      <header className="w-full px-2 text-gray-700 bg-gradient-to-r from-indigo-700 to-blue-300 ">
         <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-5xl md:px-3">
           <div className="relative flex flex-col md:flex-row">
             <a
@@ -41,7 +41,7 @@ export default function Home() {
                 offset={-70}
                 duration={500}
               >
-                <span className="md:mr-5 font-medium leading-6 text-gray-100 hover:text-gray-900">
+                <span className="md:mr-5 font-medium leading-6 text-gray-100 hover:text-gray-900 cursor-pointer">
                   Process
                 </span>
               </Link>
@@ -53,7 +53,7 @@ export default function Home() {
                 offset={-70}
                 duration={500}
               >
-                <span className="mr-5 ml-5 md:mr-5 md:ml-0 font-medium leading-6 text-gray-100 hover:text-gray-900">
+                <span className="mr-5 ml-5 md:mr-5 md:ml-0 font-medium leading-6 text-gray-100 hover:text-gray-900 cursor-pointer">
                   Works
                 </span>
               </Link>
@@ -65,7 +65,7 @@ export default function Home() {
                 offset={-70}
                 duration={500}
               >
-                <span className="md:mr-5 font-medium leading-6 text-gray-100 hover:text-gray-900">
+                <span className="md:mr-5 font-medium leading-6 text-gray-100 hover:text-gray-900 cursor-pointer">
                   About
                 </span>
               </Link>
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <section className="px-2 pt-14 pb-24 bg-gradient-to-r from-indigo-600 to-blue-300 md:px-0 ">
+      <section className="px-2 pt-14 pb-24 bg-gradient-to-r from-indigo-700 to-blue-300 md:px-0 ">
         <div className="container max-w-5xl items-center px-2 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
@@ -326,7 +326,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 dark:text-gray-300">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
                     Read case study
                   </span>
                 </a>
@@ -354,7 +354,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 dark:text-gray-300">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
                     Read case study
                   </span>
                 </a>
@@ -381,7 +381,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 dark:text-gray-300">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
                     Read case study
                   </span>
                 </a>
@@ -410,7 +410,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 dark:text-gray-300">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
                     Read case study
                   </span>
                 </a>
