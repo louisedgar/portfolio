@@ -308,7 +308,7 @@ export default function Home() {
         <div className="flex flex-wrap overflow-hidden pt-24 pb-12 lg:-mx-5">
           <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform translate-y-12">
             {/* <!-- Column Content --> */}
-            <img src={Mantis} className="rounded-lg" alt=""></img>
+            <img src={Mantis} className="rounded-lg shadow-lg" alt=""></img>
             <div className="mt-8 mb-10 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
                 iGauge Logger
@@ -336,7 +336,7 @@ export default function Home() {
 
           <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform -translate-y-28">
             {/* <!-- Column Content --> */}
-            <img src={Formbuilder} className="rounded-lg" alt=""></img>
+            <img src={Formbuilder} className="rounded-lg shadow-lg" alt=""></img>
             <div className="mt-8 mb-10 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
                 Formbuilder
@@ -364,7 +364,7 @@ export default function Home() {
 
           <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform translate-y-12">
             {/* <!-- Column Content --> */}
-            <img src={Co} className="rounded-lg" alt=""></img>
+            <img src={Co} className="rounded-lg shadow-lg" alt=""></img>
             <div className="mt-8 mb-10 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
                 Co
@@ -391,7 +391,7 @@ export default function Home() {
 
           <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform -translate-y-28">
             {/* <!-- Column Content --> */}
-            <img src={Aqimos} className="rounded-lg" alt=""></img>
+            <img src={Aqimos} className="rounded-lg shadow-lg" alt=""></img>
             <div className="mt-8 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
                 AQimos
