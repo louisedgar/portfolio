@@ -422,17 +422,17 @@ export default function Home() {
 
       {/* Related Works */}
 
-      <div className="w-full bg-white p-12">
+      <div className="w-full bg-white p-12 border-t-2 border-gray-100">
         <div className="max-w-5xl mx-auto mb-24">
-          <div className="header flex items-end justify-between mb-12">
+          <div className="header flex items-end justify-between mb-6">
             <div className="title">
-              <p className="text-4xl font-bold text-gray-800 mb-4">
-                Related works
+              <p className="text-base font-bold text-gray-400 mb-4">
+                UI CONCEPTS
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
@@ -441,7 +441,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
@@ -450,12 +450,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
-              <div className="w-full block h-full">
-                <img alt="" src={AR} className="h-full w-full object-cover" />
-              </div>
-            </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
@@ -464,7 +459,13 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg m-auto">
+              <div className="w-full block h-full">
+                <img alt="" src={AR} className="h-full w-full object-cover" />
+              </div>
+            </div>
+
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
@@ -473,7 +474,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
@@ -482,7 +483,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
@@ -491,7 +492,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
@@ -500,7 +501,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 m-auto">
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img alt="" src={Move} className="h-full w-full object-cover" />
               </div>
