@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       {/* Hero */}
-      <header className="w-full px-2 text-gray-700 bg-gradient-to-r from-indigo-700 to-blue-300 ">
+      <header className="w-full px-2 md:px-12 xl:px-0 text-gray-700 bg-gradient-to-r from-indigo-700 to-blue-300 ">
         <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-5xl md:px-3">
           <div className="relative flex flex-col md:flex-row">
             <a
@@ -75,7 +75,7 @@ export default function Home() {
             <span className="inline-flex rounded-md shadow-sm">
               <a
                 href="mailto:hello@edgarlouis.com"
-                className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700"
+                className="md:inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 hidden md:visible"
               >
                 Contact me
               </a>
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <section className="px-2 pt-14 pb-24 bg-gradient-to-r from-indigo-700 to-blue-300 md:px-0 ">
+      <section className="px-2 pt-14 pb-24 bg-gradient-to-r from-indigo-700 to-blue-300 md:px-4 md:px-12 xl:px-0 ">
         <div className="container max-w-5xl items-center px-2 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
@@ -118,13 +118,13 @@ export default function Home() {
 
       {/* Process */}
       <div className="w-full bg-purple-50">
-        <div className="container px-2 relative max-w-5xl bg-purple-50 py-24 mx-auto md:px-0">
+        <div className="container px-4 relative max-w-5xl bg-purple-50 pt-16 md:py-24 mx-auto md:px-12 xl:px-0">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="lg:col-start-2 md:pl-20" id="process">
               <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9">
                 Design process
               </h4>
-              <p className="mt-6 text-base font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300">
+              <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300">
                 The process that I used throughout the product development.
                 Using design thinking and double diamond framework, several
                 iterations are expected to meet the best end result.
@@ -292,12 +292,12 @@ export default function Home() {
       </div>
 
       {/* Works */}
-      <div className="container px-2 pt-12 relative max-w-5xl h-full bg-white dark:bg-gray-800 mt-12 mx-auto md:px-0">
+      <div className="container pt-16 md:pt-12 relative max-w-5xl h-full bg-white dark:bg-gray-800 md:mt-12 mx-auto ">
         <div className="max-w-md" id="works">
-          <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9">
+          <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0">
             Recent projects
           </h4>
-          <p className="mt-6 text-base font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300">
+          <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300 px-4 md:px-12 xl:px-0">
             These are some projects that I've been succesfully completed for my
             clients. You can read fully the breakdown of the design process in
             the study case published at Bootcamp - one of the UX largest
@@ -305,16 +305,22 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex flex-wrap overflow-hidden pt-24 pb-12 lg:-mx-5">
-          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform translate-y-12">
+        <div className="flex flex-wrap overflow-hidden pt-16 pb-16 md:pt-24 md:pb-12 lg:-mx-5">
+          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 md:transform md:translate-y-12">
             {/* <!-- Column Content --> */}
-            <img src={Mantis} className="rounded-lg shadow-lg" alt=""></img>
+
+            <img
+              src={Mantis}
+              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg"
+              alt=""
+            ></img>
+
             <div className="mt-8 mb-10 max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
+              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 iGauge Logger
               </h5>
 
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300">
+              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
                 iGauge Logger is more about water pressure and decision making.
                 It tracks the water pressure for pipelines that spread across
                 the city. The data is used as a consideration to control and
@@ -326,7 +332,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300 px-4 md:px-12 xl:px-0">
                     Read case study
                   </span>
                 </a>
@@ -334,15 +340,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform -translate-y-28">
+          <div className="w-full overflow-hidden mt-12 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 md:transform md:-translate-y-28">
             {/* <!-- Column Content --> */}
-            <img src={Formbuilder} className="rounded-lg shadow-lg" alt=""></img>
+
+            <img
+              src={Formbuilder}
+              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg"
+              alt=""
+            ></img>
+
             <div className="mt-8 mb-10 max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
+              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 Formbuilder
               </h5>
 
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300">
+              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
                 A formbuilding software for a organization internal use. The
                 design system ensures the users to generate a consistent form -
                 for any necessity - which not only provide a positive experience
@@ -354,7 +366,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300 px-4 md:px-12 xl:px-0">
                     Read case study
                   </span>
                 </a>
@@ -362,42 +374,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform translate-y-12">
+          <div className="w-full overflow-hidden mt-12 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 md:transform md:translate-y-12">
             {/* <!-- Column Content --> */}
-            <img src={Co} className="rounded-lg shadow-lg" alt=""></img>
+
+            <img
+              src={Aqimos}
+              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg"
+              alt=""
+            ></img>
+
             <div className="mt-8 mb-10 max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
-                Co
-              </h5>
-
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300">
-                Co. is a web app that serve as collaboration tool. Users can
-                chat, create their own server and channel to make collaboration
-                with their peers easier.
-              </p>
-              <div className="mt-4">
-                <a
-                  href="https://louisedgar.medium.com/co-a-collaboration-messaging-platform-simplified-6ce26389345d"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
-                    Read case study
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 transform -translate-y-28">
-            {/* <!-- Column Content --> */}
-            <img src={Aqimos} className="rounded-lg shadow-lg" alt=""></img>
-            <div className="mt-8 max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
+              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 AQimos
               </h5>
 
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300">
+              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
                 AQimos is a software that monitor the air composition. The
                 devices surronding a particular area sent data accordingly by
                 the back-end that provides API. The data then is processed by
@@ -410,7 +401,40 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300 px-4 md:px-12  xl:px-0">
+                    Read case study
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full overflow-hidden mt-12 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 md:transform md:-translate-y-28">
+            {/* <!-- Column Content --> */}
+
+            <img
+              src={Co}
+              className="md:px-12 xl:px-0 md:rounded-lg"
+              alt=""
+            ></img>
+
+            <div className="mt-8 max-w-xs">
+              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
+                Co
+              </h5>
+
+              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
+                Co. is a web app that serve as collaboration tool. Users can
+                chat, create their own server and channel to make collaboration
+                with their peers easier.
+              </p>
+              <div className="mt-4">
+                <a
+                  href="https://louisedgar.medium.com/co-a-collaboration-messaging-platform-simplified-6ce26389345d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-300 px-4 md:px-12 xl:px-0">
                     Read case study
                   </span>
                 </a>
@@ -423,7 +447,9 @@ export default function Home() {
       {/* Related Works */}
 
       <div className="w-full bg-white p-12 border-t-2 border-gray-100">
-        <div className="max-w-5xl mx-auto mb-24">
+
+        <div className="max-w-5xl mx-auto mb-12 md:mb-24">
+
           <div className="header flex items-end justify-between mb-6">
             <div className="title">
               <p className="text-base font-bold text-gray-400 mb-4">
@@ -513,7 +539,10 @@ export default function Home() {
       {/* CTA */}
       <div className="w-full bg-indigo-600">
         <div className="container max-w-5xl bg-indigo-600 overflow-hidden relative mx-auto ">
-          <div className="text-start w-1/2 py-12 lg:py-20  z-20" id="about">
+          <div
+            className="text-start w-full px-4 md:px-12 xl:px-0 md:w-1/2 py-12 lg:py-20 z-20"
+            id="about"
+          >
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
               <span className="block">Say hi and let's collaborate!</span>
               <span className="block text-white">Get in touch.</span>
@@ -546,8 +575,8 @@ export default function Home() {
 
       {/* Footer */}
 
-      <footer className="text-gray-200 bg-gray-800  body-font">
-        <div className="container flex flex-col items-center  py-8 mx-auto max-w-5xl sm:flex-row">
+      <footer className="text-gray-200 bg-gray-800 body-font">
+        <div className="container flex flex-col items-center py-8 mx-auto max-w-5xl sm:flex-row px-0 md:px-12 xl:px-0">
           <a
             href="/"
             className="text-xl font-black leading-none text-white select-none logo"
