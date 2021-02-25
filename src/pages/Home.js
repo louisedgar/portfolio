@@ -292,7 +292,7 @@ export default function Home() {
       </div>
 
       {/* Works */}
-      <div className="container pt-16 md:pt-12 relative max-w-5xl h-full bg-white dark:bg-gray-800 md:mt-12 mx-auto ">
+      <div className="container pt-16 md:pt-12 relative max-w-5xl h-full bg-white dark:bg-gray-800 md:my-12 mx-auto ">
         <div className="max-w-md" id="works">
           <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0">
             Recent projects
@@ -438,7 +438,7 @@ export default function Home() {
 
       {/* Related Works */}
 
-      <div className="w-full bg-white p-12 border-t-2 border-gray-100">
+      <div className="w-full bg-white p-4 md:p-12 border-t-2 border-gray-100">
         <div className="max-w-5xl mx-auto mb-12 md:mb-24">
           <div className="header flex items-end justify-between mb-6">
             <div className="title">
@@ -466,28 +466,9 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
-              <div className="w-full block h-full">
-                <img
-                  alt=""
-                  src={Nimble}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </div>
             <div className="overflow-hidden shadow-lg rounded-lg m-auto">
               <div className="w-full block h-full">
                 <img alt="" src={AR} className="h-full w-full object-cover" />
-              </div>
-            </div>
-
-            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
-              <div className="w-full block h-full">
-                <img
-                  alt=""
-                  src={Sneakers}
-                  className="h-full w-full object-cover"
-                />
               </div>
             </div>
             <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
@@ -504,6 +485,24 @@ export default function Home() {
                 <img
                   alt=""
                   src={Livestream}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
+              <div className="w-full block h-full">
+                <img
+                  alt=""
+                  src={Sneakers}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden shadow-lg rounded-lg  m-auto">
+              <div className="w-full block h-full">
+                <img
+                  alt=""
+                  src={Nimble}
                   className="h-full w-full object-cover"
                 />
               </div>

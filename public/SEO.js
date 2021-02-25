@@ -29,12 +29,10 @@ function SEO() {
       <meta
         property="og:description"
         name="description"
-        content="Hi! I'm Edgar a UI/UX Designer. I thrive in making usable, accessible, and desirable products - by analyzing the root
-                cause, defining the needs, solving the right problem, and
-                designing for the best experience."
+        content="Designing your digital product to be more accessible, desirable, and usable. A pasionate builder and problem solver. Edgar Louis is a UI/UX designer based on Indonesia."
       />
       <meta name="theme-color" content="#ffffff" />
-      <meta property="og:image" content="https://ibb.co/Chf0J01" />
+      <meta property="og:image" content="/preview.png" />
       <meta
         name="google-site-verification"
         content="82zI76PTd7szd1-fQDJ9rWe1gT6R5O1cVkax1bkF_BU"
