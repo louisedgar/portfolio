@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../assets/hero-img.png";
-import Hands from "../assets/hands.png";
+import Hands from "../assets/3d-1.png";
 import Mantis from "../assets/project-mantis.png";
 import Aqimos from "../assets/project-aqimos.png";
 import Formbuilder from "../assets/project-formbuilder.png";
@@ -280,7 +280,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="-mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1">
+            <div className="-mx-4 py-16 md:py-0 md:-mx-12 relative lg:mt-0 lg:col-start-1">
               <img
                 src={Hands}
                 alt="illustration"
