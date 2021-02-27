@@ -124,7 +124,7 @@ export default function Home() {
               <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9">
                 Design process
               </h4>
-              <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300">
+              <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-600 dark:text-gray-300">
                 The process that I used throughout the product development.
                 Using design thinking and double diamond framework, several
                 iterations are expected to meet the best end result.
@@ -297,7 +297,7 @@ export default function Home() {
           <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0">
             Recent projects
           </h4>
-          <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300 px-4 md:px-12 xl:px-0">
+          <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
             These are some projects that I've been succesfully completed for my
             clients. You can read fully the breakdown of the design process in
             the study case published at Bootcamp - one of the UX largest
@@ -308,11 +308,13 @@ export default function Home() {
         <div className="flex flex-wrap overflow-hidden pt-16 pb-16 md:pt-24 md:pb-12 lg:-mx-5">
           <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 md:transform md:translate-y-12">
             {/* <!-- Column Content --> */}
+
             <img
               src={Mantis}
               className="md:px-4 md:px-12 xl:px-0 md:rounded-lg"
               alt=""
             ></img>
+
             <div className="mt-8 mb-10 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 iGauge Logger
@@ -340,11 +342,13 @@ export default function Home() {
 
           <div className="w-full overflow-hidden mt-12 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 md:transform md:-translate-y-28">
             {/* <!-- Column Content --> */}
+
             <img
               src={Formbuilder}
               className="md:px-4 md:px-12 xl:px-0 md:rounded-lg"
               alt=""
             ></img>
+
             <div className="mt-8 mb-10 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 Formbuilder
@@ -372,11 +376,13 @@ export default function Home() {
 
           <div className="w-full overflow-hidden mt-12 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 md:transform md:translate-y-12">
             {/* <!-- Column Content --> */}
+
             <img
               src={Aqimos}
               className="md:px-4 md:px-12 xl:px-0 md:rounded-lg"
               alt=""
             ></img>
+
             <div className="mt-8 mb-10 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 AQimos
@@ -405,11 +411,13 @@ export default function Home() {
 
           <div className="w-full overflow-hidden mt-12 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 md:transform md:-translate-y-28">
             {/* <!-- Column Content --> */}
+
             <img
               src={Co}
               className="md:px-12 xl:px-0 md:rounded-lg"
               alt=""
             ></img>
+
             <div className="mt-8 max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 Co
@@ -438,8 +446,11 @@ export default function Home() {
 
       {/* Related Works */}
 
+
       <div className="w-full bg-white p-4 md:p-12 border-t-2 border-gray-100">
+
         <div className="max-w-5xl mx-auto mb-12 md:mb-24">
+
           <div className="header flex items-end justify-between mb-6">
             <div className="title">
               <p className="text-base font-bold text-gray-400 mb-4">
