@@ -124,7 +124,7 @@ export default function Home() {
               <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9">
                 Design process
               </h4>
-              <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300">
+              <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-600 dark:text-gray-300">
                 The process that I used throughout the product development.
                 Using design thinking and double diamond framework, several
                 iterations are expected to meet the best end result.
@@ -297,7 +297,7 @@ export default function Home() {
           <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0">
             Recent projects
           </h4>
-          <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-800 dark:text-gray-300 px-4 md:px-12 xl:px-0">
+          <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
             These are some projects that I've been succesfully completed for my
             clients. You can read fully the breakdown of the design process in
             the study case published at Bootcamp - one of the UX largest
