@@ -118,7 +118,7 @@ export default function Home() {
 
       {/* Process */}
       <div className="w-full bg-white">
-        <div className="container px-4 relative max-w-5xl bg-white pt-16 md:py-24 mx-auto md:px-12 xl:px-0">
+        <div className="container px-4 relative max-w-5xl bg-white pt-16 md:pt-24 mx-auto md:px-12 xl:px-0">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="lg:col-start-2 md:pl-20" id="process">
               <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9">
