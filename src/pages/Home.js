@@ -292,7 +292,7 @@ export default function Home() {
       </div>
 
       {/* Works */}
-      <div className="container pt-16 md:pt-12 relative max-w-5xl h-full bg-white dark:bg-gray-800 md:my-12 mx-auto ">
+      <div className="container pt-12 md:pt-8 relative max-w-5xl h-full bg-white dark:bg-gray-800 md:my-12 mx-auto ">
         <div className="max-w-md" id="works">
           <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0">
             Recent projects
