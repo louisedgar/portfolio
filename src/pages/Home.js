@@ -124,12 +124,12 @@ export default function Home() {
             id="works"
           >
             {/* <!-- Column Content --> */}
-            <div className="mt-8 max-w-md lg:transform lg:translate-y-12">
+            <div className="mt-8 max-w-md lg:transform lg:translate-y-8">
               <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0 ">
                 Recent projects
               </h4>
 
-              <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
+              <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
                 These are some projects that I've been succesfully completed for
                 my clients. You can read fully the breakdown of the design
                 process in the study case published at Bootcamp - one of the UX
@@ -145,7 +145,7 @@ export default function Home() {
                     type="button"
                     className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-indigo-700 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-md shadow"
                   >
-                    Go to @Bootcamp
+                    Medium @Bootcamp
                   </button>
                 </a>
               </div>
@@ -295,10 +295,10 @@ export default function Home() {
         <div className="container px-4 relative max-w-5xl bg-white mx-auto md:px-12 xl:px-0">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center">
             <div className="lg:col-start-2 lg:col-span-2 md:pl-20" id="process">
-              <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9">
+              <h4 className="text-4xl  font-bold text-gray-900 dark:text-white tracking-tight leading-tight">
                 The process that I used throughout the product development.
               </h4>
-              <p className="mt-6 text-lg font-semibold leading-6 mt-4 text-gray-600 dark:text-gray-300">
+              <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300">
                 Using design thinking and double diamond framework, several
                 iterations are expected to meet the best end result.
               </p>
