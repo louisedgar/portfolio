@@ -130,8 +130,7 @@ export default function Home() {
               </h4>
 
               <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                These are some projects that I've been succesfully completed for
-                my clients. You can read fully the breakdown of the design
+                These are some projects that I've been succesfully completed. You can read fully the breakdown of the design
                 process in the study case published at Bootcamp - one of the UX
                 largest publication at Medium.
               </p>
@@ -167,7 +166,7 @@ export default function Home() {
               </h5>
 
               <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                iGauge Logger is more about water pressure and decision making.
+                iGauge Logger is about water pressure and decision making.
                 It tracks the water pressure for pipelines that spread across
                 the city. The data is used as a consideration to control and
                 maintain the city water supply.
@@ -296,7 +295,7 @@ export default function Home() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center">
             <div className="lg:col-start-2 lg:col-span-2 md:pl-20" id="process">
               <h4 className="text-4xl  font-bold text-gray-900 dark:text-white tracking-tight leading-tight">
-                The process that I used throughout the product development.
+                The process that I use throughout the product development.
               </h4>
               <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300">
                 Using design thinking and double diamond framework, several
