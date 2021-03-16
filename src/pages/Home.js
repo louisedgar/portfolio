@@ -366,7 +366,7 @@ export default function Home() {
                   href="mailto:hello@edgarlouis.com"
                   className="text-xl font-semibold leading-6 mt-4 text-indigo-700 cursor-pointer hover:text-indigo-300"
                 >
-                  — Start a project
+                  — Contact me for project
                 </a>
               </div>
             </div>
