@@ -13,6 +13,7 @@ import Checkout from "../assets/Checkout.png";
 import Sneakers from "../assets/Sneakers-App.gif";
 import Nimble from "../assets/Nimble.png";
 import Livestream from "../assets/Livestreaming-Web.png";
+import Aqimosgif from "../assets/Aqimos.gif";
 import Autoroom from "../assets/Autoroom.png";
 import Move from "../assets/Move.png";
 import ThreeD from "../assets/3d.png";
@@ -75,7 +76,7 @@ export default function Home() {
             <span className="inline-flex rounded-md shadow-sm">
               <a
                 href="mailto:hello@edgarlouis.com"
-                className="md:inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out bg-indigo-700 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 hidden md:visible"
+                className="md:inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out bg-gray-900 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 hidden md:visible"
               >
                 Contact me
               </a>
@@ -130,9 +131,10 @@ export default function Home() {
               </h4>
 
               <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                These are some projects that I've been succesfully completed. You can read fully the breakdown of the design
-                process in the study case published at Bootcamp - one of the UX
-                largest publication at Medium.
+                These are some projects that I've been succesfully completed.
+                You can read fully the breakdown of the design process in the
+                study case published at Bootcamp - one of the UX largest
+                publication at Medium.
               </p>
               <div className="mt-10 px-4 md:px-12 xl:px-0">
                 <a
@@ -142,7 +144,7 @@ export default function Home() {
                 >
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-indigo-700 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-md shadow"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-md shadow"
                   >
                     Medium @Bootcamp
                   </button>
@@ -156,7 +158,7 @@ export default function Home() {
 
             <img
               src={Mantis}
-              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-md"
+              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
               alt=""
             ></img>
 
@@ -166,9 +168,9 @@ export default function Home() {
               </h5>
 
               <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                iGauge Logger is about water pressure and decision making.
-                It tracks the water pressure for pipelines that spread across
-                the city. The data is used as a consideration to control and
+                iGauge Logger is about water pressure and decision making. It
+                tracks the water pressure for pipelines that spread across the
+                city. The data is used as a consideration to control and
                 maintain the city water supply.
               </p>
               <div className="mt-4">
@@ -190,7 +192,7 @@ export default function Home() {
 
             <img
               src={Formbuilder}
-              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-md"
+              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
               alt=""
             ></img>
 
@@ -224,7 +226,7 @@ export default function Home() {
 
             <img
               src={Aqimos}
-              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-md"
+              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
               alt=""
             ></img>
 
@@ -259,7 +261,7 @@ export default function Home() {
 
             <img
               src={Co}
-              className="md:px-12 xl:px-0 md:rounded-lg md:shadow-md"
+              className="md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
               alt=""
             ></img>
 
@@ -402,11 +404,11 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="overflow-hidden shadow-xl rounded-lg m-auto">
+            <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
-                  src={Profile}
+                  src={Aqimosgif}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -414,6 +416,15 @@ export default function Home() {
             <div className="overflow-hidden shadow-xl rounded-lg m-auto">
               <div className="w-full block h-full">
                 <img alt="" src={AR} className="h-full w-full object-cover" />
+              </div>
+            </div>
+            <div className="overflow-hidden shadow-xl rounded-lg m-auto">
+              <div className="w-full block h-full">
+                <img
+                  alt=""
+                  src={Profile}
+                  className="h-full w-full object-cover"
+                />
               </div>
             </div>
             <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
@@ -507,7 +518,7 @@ export default function Home() {
                 <a href="mailto:hello@edgarlouis.com">
                   <button
                     type="button"
-                    className="py-4 px-6 text-gray-900 items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-indigo-200 hover:bg-indigo-700 hover:text-white focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
                   >
                     hello@edgarlouis.com
                   </button>
