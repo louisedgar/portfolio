@@ -390,7 +390,7 @@ export default function Home() {
           <div className="header flex items-end justify-between mb-6">
             <div className="title">
               <p className="text-base font-bold text-gray-400 mb-4">
-                UI CONCEPTS
+                UI EXPLORATIONS
               </p>
             </div>
           </div>
