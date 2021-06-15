@@ -101,7 +101,7 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="mx-auto text-base text-indigo-200 font-medium sm:max-w-md lg:text-xl md:max-w-3xl">
-                  I thrive in making usable, accessible, and desirable products
+                  I thrive on making usable, accessible, and desirable products
                   - by analyzing the root cause, defining the needs, solving the
                   right problem, and designing for the best experience.
                 </p>
@@ -131,10 +131,7 @@ export default function Home() {
               </h4>
 
               <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                These are some projects that I've been succesfully completed.
-                You can read fully the breakdown of the design process in the
-                study case published at Bootcamp - one of the UX largest
-                publication at Medium.
+                These are some projects that I've been successfully completed. You can read fully the breakdown of the design process in the study case published at Bootcamp - one of the UX largest publication at Medium.
               </p>
               <div className="mt-10 px-4 md:px-12 xl:px-0">
                 <a
@@ -168,10 +165,7 @@ export default function Home() {
               </h5>
 
               <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                iGauge Logger is about water pressure and decision making. It
-                tracks the water pressure for pipelines that spread across the
-                city. The data is used as a consideration to control and
-                maintain the city water supply.
+                iGauge Logger is about water pressure and decision-making. It tracks the water pressure for pipelines that spread across the city. The data are used as a consideration to control and maintain the city water supply.
               </p>
               <div className="mt-4">
                 <a
@@ -202,10 +196,7 @@ export default function Home() {
               </h5>
 
               <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                A formbuilding software for a organization internal use. The
-                design system ensures the users to generate a consistent form -
-                for any necessity - which not only provide a positive experience
-                for the builder but also for the preparer.
+                A form building software for an organization's internal use. The design system ensures the users generate a consistent form - for any necessity - which not only provides a positive experience for the builder but also for the Preparer.
               </p>
               <div className="mt-4">
                 <a
@@ -236,11 +227,7 @@ export default function Home() {
               </h5>
 
               <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                AQimos is a software that monitor the air composition. The
-                devices surronding a particular area sent data accordingly by
-                the back-end that provides API. The data then is processed by
-                the front-end which will be used by the person in charge to
-                measure the quality of the air.
+                AQimos is a software that monitors air composition. The devices surrounding a particular area sent data accordingly by the back-end that provides API. The data then are processed by the front-end which will be used by the person in charge to measure the quality of the air.
               </p>
               <div className="mt-4">
                 <a
@@ -271,9 +258,7 @@ export default function Home() {
               </h5>
 
               <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                Co. is a web app that serve as collaboration tool. Users can
-                chat, create their own server and channel to make collaboration
-                with their peers easier.
+                Co. is a web app that serves as a collaboration tool. Users can chat, create their own server and channel to make collaboration with their peers easier.
               </p>
               <div className="mt-4">
                 <a
@@ -312,7 +297,7 @@ export default function Home() {
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
                         Generating and validating ideas in the earliest
-                        development process, that involves the interview of
+                        development process, which involves the interview of
                         stakeholders and end-user, to decide the project
                         requirements.
                       </p>
@@ -326,9 +311,7 @@ export default function Home() {
                         Design
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
-                        Making design solution based on the insight found in the
-                        research phase. The design process ensure a close
-                        collaboration with the team.
+                       Making design solutions based on the insight found in the research phase. The design process ensures close collaboration with the team.
                       </p>
                     </div>
                   </div>
@@ -340,10 +323,7 @@ export default function Home() {
                         Test
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
-                        Testing the protoype to ensure that the solution is
-                        robust enough to be usable, desirable, and accessible.
-                        Marking any painpoint from the users to make improvement
-                        to the given design.
+                       Testing the prototype to ensure that the solution is robust enough to be usable, desirable, and accessible. Marking any pain point from the users to make improvements to the given design.
                       </p>
                     </div>
                   </div>
@@ -355,9 +335,7 @@ export default function Home() {
                         Deliver
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
-                        Delivering the solution to the engineering team and
-                        continuously being involved in maintaining the product
-                        quality.
+                        Delivering the solution to the engineering team and continuously being involved in maintaining the product quality.
                       </p>
                     </div>
                   </div>
@@ -509,9 +487,7 @@ export default function Home() {
               <span className="block text-white">Get in touch.</span>
             </h2>
             <p className="text-xl mt-4 text-indigo-200">
-              Hi! I'm Ed - currently working as a freelance UI/UX designer. If
-              you have any idea for apps, and have a passion in solving problems
-              and make a good impact, don't hesitate to contact me.
+              Hi! I'm Ed - currently working as a freelance UI/UX designer. If you have any ideas for apps and have a passion for solving problems and make a good impact, don't hesitate to contact me.
             </p>
             <div className="lg:mt-0 lg:flex-shrink-0">
               <div className="mt-12 inline-flex rounded-md shadow">
