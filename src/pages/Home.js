@@ -4,8 +4,8 @@ import Hands from "../assets/3d-1.png";
 import Mantis from "../assets/project-mantis.png";
 import Aqimos from "../assets/project-aqimos.png";
 import Formbuilder from "../assets/project-formbuilder.png";
-import Co from "../assets/project-co.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import Co from "../assets/Co.png";
+import { Link } from "react-scroll";
 import Digify from "../assets/Digify.png";
 import Profile from "../assets/MOOC-Profile.png";
 import AR from "../assets/AR.gif";
@@ -17,6 +17,8 @@ import Aqimosgif from "../assets/Aqimos.gif";
 import Autoroom from "../assets/Autoroom.png";
 import Move from "../assets/Move.png";
 import ThreeD from "../assets/3d.png";
+import CheckoutImg from "../assets/checkout.jpg";
+import Duo from "../assets/Duo.svg";
 
 export default function Home() {
   return (
@@ -30,7 +32,7 @@ export default function Home() {
               className="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
             >
               <span className="mx-auto text-xl font-black leading-none text-white select-none">
-                Edgar<span className="text-white">Louis</span>
+                edgar<span className="text-white">louis</span>
               </span>
             </a>
             <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-white">
@@ -73,10 +75,10 @@ export default function Home() {
             </nav>
           </div>
           <div className="inline-flex items-center ml-5 space-x-6 lg:justify-end">
-            <span className="inline-flex rounded-md shadow-sm">
+            <span className="inline-flex">
               <a
                 href="mailto:hello@edgarlouis.com"
-                className="md:inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out bg-gray-900 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 hidden md:visible"
+                className="md:inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-indigo-800 whitespace-no-wrap transition duration-150 ease-in-out bg-white border border-transparent rounded-full hover:bg-indigo-800 hover:text-white focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 hidden md:visible"
               >
                 Contact me
               </a>
@@ -116,7 +118,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Works */}
       <div className="container relative max-w-5xl bg-white mx-auto mt-12 lg:mt-24">
         <div className="flex flex-wrap overflow-hidden lg:-mx-5">
@@ -125,13 +126,16 @@ export default function Home() {
             id="works"
           >
             {/* <!-- Column Content --> */}
-            <div className="mt-8 max-w-md lg:transform lg:translate-y-8">
+            <div className="mt-10 md:mt-8 max-w-md lg:transform lg:translate-y-8">
               <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0 ">
                 Recent projects
               </h4>
 
-              <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                These are some projects that I've been successfully completed. You can read fully the breakdown of the design process in the study case published at Bootcamp - one of the UX largest publication at Medium.
+              <p className="mt-6 text-lg font-medium mt-4 text-gray-900  px-4 md:px-12 xl:px-0">
+                These are some projects that I've been successfully completed.
+                You can read fully the breakdown of the design process in the
+                study case published at Bootcamp - one of the UX largest
+                publications at Medium.
               </p>
               <div className="mt-10 px-4 md:px-12 xl:px-0">
                 <a
@@ -141,7 +145,7 @@ export default function Home() {
                 >
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-md shadow"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow"
                   >
                     Medium @Bootcamp
                   </button>
@@ -159,13 +163,16 @@ export default function Home() {
               alt=""
             ></img>
 
-            <div className="mt-8 mb-10 max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
+            <div className="mt-8 mb-10 md:max-w-xs">
+              <h5 className="text-xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
                 iGauge Logger
               </h5>
 
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                iGauge Logger is about water pressure and decision-making. It tracks the water pressure for pipelines that spread across the city. The data are used as a consideration to control and maintain the city water supply.
+              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+                iGauge Logger is about water pressure and decision-making. It
+                tracks the water pressure for pipelines that spread across the
+                city. The data are used as a consideration to control and
+                maintain the city water supply.
               </p>
               <div className="mt-4">
                 <a
@@ -173,7 +180,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-700 hover:text-indigo-300 px-4 md:px-12 xl:px-0">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-900 px-4 md:px-12 xl:px-0">
                     Read case study
                   </span>
                 </a>
@@ -190,13 +197,16 @@ export default function Home() {
               alt=""
             ></img>
 
-            <div className="mt-8 mb-10 max-w-xs">
+            <div className="mt-8 mb-10 md:max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 Formbuilder
               </h5>
 
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                A form building software for an organization's internal use. The design system ensures the users generate a consistent form - for any necessity - which not only provides a positive experience for the builder but also for the Preparer.
+              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+                A form building software for an organization's internal use. The
+                design system ensures the users generate a consistent form - for
+                any necessity - which not only provides a positive experience
+                for the builder but also for the Preparer.
               </p>
               <div className="mt-4">
                 <a
@@ -204,7 +214,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-700 hover:text-indigo-300 px-4 md:px-12 xl:px-0">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-900 px-4 md:px-12 xl:px-0">
                     Read case study
                   </span>
                 </a>
@@ -221,13 +231,17 @@ export default function Home() {
               alt=""
             ></img>
 
-            <div className="mt-8 mb-10 max-w-xs">
+            <div className="mt-8 mb-10 md:max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 AQimos
               </h5>
 
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                AQimos is a software that monitors air composition. The devices surrounding a particular area sent data accordingly by the back-end that provides API. The data then are processed by the front-end which will be used by the person in charge to measure the quality of the air.
+              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+                AQimos is a software that monitors air composition. The devices
+                surrounding a particular area sent data accordingly by the
+                back-end that provides API. The data then are processed by the
+                front-end which will be used by the person in charge to measure
+                the quality of the air.
               </p>
               <div className="mt-4">
                 <a
@@ -235,38 +249,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-medium leading-6 text-indigo-700 hover:text-indigo-300 px-4 md:px-12  xl:px-0">
-                    Read case study
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full overflow-hidden mt-8 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 lg:transform lg:-translate-y-96">
-            {/* <!-- Column Content --> */}
-
-            <img
-              src={Co}
-              className="md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
-              alt=""
-            ></img>
-
-            <div className="mt-8 max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
-                Co
-              </h5>
-
-              <p className="text-base font-medium leading-6 mt-4 text-gray-500 dark:text-gray-300 px-4 md:px-12 xl:px-0">
-                Co. is a web app that serves as a collaboration tool. Users can chat, create their own server and channel to make collaboration with their peers easier.
-              </p>
-              <div className="mt-4">
-                <a
-                  href="https://louisedgar.medium.com/co-a-collaboration-messaging-platform-simplified-6ce26389345d"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="text-lg font-medium leading-6 text-indigo-700 hover:text-indigo-300 px-4 md:px-12 xl:px-0">
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-900 px-4 md:px-12 xl:px-0">
                     Read case study
                   </span>
                 </a>
@@ -275,16 +258,124 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* {Other case studies} */}
+      <div>
+        <div className="container relative max-w-5xl bg-white mx-auto text-gray-900 mt-10 md:mb-24">
+          <div className="header flex items-end justify-between mb-6">
+            <div className="title px-4 md:px-12 xl:px-0">
+              <p className="text-base font-bold text-gray-400 mb-4">
+                OTHER WORKS
+              </p>
+            </div>
+          </div>
+          <div className="flex grid grid-cols-12 pb-10  gap-x-8 gap-y-16">
+            <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4 px-4 md:px-12 xl:px-0">
+              <a href="#_" className="block">
+                <img
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
+                  src={Duo}
+                  alt="Duolingo-logo"
+                />
+              </a>
+              <div className="bg-purple-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
+                <span>Case Study</span>
+              </div>
+              <h2 className="text-lg font-bold sm:text-xl md:text-2xl">
+                <a href="#_">Revamping a Language Education Apps: Duolingo</a>
+              </h2>
+              <p className="text-base text-gray-900">
+                Learn the attributes you need to gain in order to build a future
+                and create a life that you are truly happy with.
+              </p>
+              <p className="pt-2 text-xs font-medium">
+                <span className="mr-1">July 7, 2021</span> ·{" "}
+                <span className="mx-1 text-gray-600">3 min. read</span>
+              </p>
+            </div>
 
+            <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4 px-4 md:px-12 xl:px-0">
+              <a
+                href="https://louisedgar.medium.com/co-a-collaboration-messaging-platform-simplified-6ce26389345d"
+                className="block"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
+                  src={Co}
+                  alt="Co-apps-interface"
+                />
+              </a>
+              <div className="bg-purple-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
+                <span>Case Study</span>
+              </div>
+              <h2 className="text-lg font-bold sm:text-xl md:text-2xl">
+                <a
+                  href="https://louisedgar.medium.com/co-a-collaboration-messaging-platform-simplified-6ce26389345d"
+                  className="block hover:text-indigo-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Co. - a collaboration platform
+                </a>
+              </h2>
+              <p className="text-base text-gray-900">
+                Co. is a web app that serves as a collaboration tool. Users can
+                chat, create their own server and channel to make collaboration
+                with their peers easier.
+              </p>
+              <p className="pt-2 text-xs font-medium">
+                <span className="mr-1">December 1, 2020</span> ·{" "}
+                <span className="mx-1 text-gray-600">3 min. read</span>
+              </p>
+            </div>
+
+            <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4 px-4 md:px-12 xl:px-0">
+              <a
+                href="https://louisedgar.medium.com/designing-a-minimal-checkout-page-327710b1d836"
+                className="block"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
+                  src={CheckoutImg}
+                  alt='By <a href="https://unsplash.com/@yakimadesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jordan Rowland</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+                />
+              </a>
+              <div className="bg-pink-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
+                <span>Article</span>
+              </div>
+              <h2 className="text-lg font-bold sm:text-xl md:text-2xl">
+                <a
+                  href="https://louisedgar.medium.com/designing-a-minimal-checkout-page-327710b1d836"
+                  className="block hover:text-indigo-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  A less overwhelming checkout page
+                </a>
+              </h2>
+              <p className="text-base text-gray-900">
+                The checkout page can be overwhelming. This is how I clean it.
+              </p>
+              <p className="pt-2 text-xs font-medium">
+                <span className="mr-1">July 27, 2020</span> ·{" "}
+                <span className="mx-1 text-gray-600">4 min. read</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Process */}
-      <div className="w-full bg-white lg:transform mt-16 lg:mt-0 lg:-translate-y-72">
-        <div className="container px-4 relative max-w-5xl bg-white mx-auto md:px-12 xl:px-0">
-          <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center">
+      <div className="w-full bg-white  mt-10 lg:mt-0 ">
+        <div className="container px-4 relative max-w-5xl bg-white mx-auto md:px-12 xl:px-0 ">
+          <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center ">
             <div className="lg:col-start-2 lg:col-span-2 md:pl-20" id="process">
               <h4 className="text-4xl  font-bold text-gray-900 dark:text-white tracking-tight leading-tight">
                 The process that I use throughout the product development.
               </h4>
-              <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-600 dark:text-gray-300">
+              <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-900 ">
                 Using design thinking and double diamond framework, several
                 iterations are expected to meet the best end result.
               </p>
@@ -295,7 +386,7 @@ export default function Home() {
                       <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
                         Research
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
+                      <p className="mt-2 text-base leading-6 text-gray-900 ">
                         Generating and validating ideas in the earliest
                         development process, which involves the interview of
                         stakeholders and end-user, to decide the project
@@ -307,11 +398,13 @@ export default function Home() {
                 <li>
                   <div>
                     <div>
-                      <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold mt-8 lg:mt-0">
+                      <h5 className="text-xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Design
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
-                       Making design solutions based on the insight found in the research phase. The design process ensures close collaboration with the team.
+                      <p className="mt-2 text-base leading-6 text-gray-900 ">
+                        Making design solutions based on the insight found in
+                        the research phase. The design process ensures close
+                        collaboration with the team.
                       </p>
                     </div>
                   </div>
@@ -319,11 +412,14 @@ export default function Home() {
                 <li>
                   <div>
                     <div>
-                      <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold mt-8 lg:mt-0">
+                      <h5 className="text-xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Test
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
-                       Testing the prototype to ensure that the solution is robust enough to be usable, desirable, and accessible. Marking any pain point from the users to make improvements to the given design.
+                      <p className="mt-2 text-base leading-6 text-gray-900 ">
+                        Testing the prototype to ensure that the solution is
+                        robust enough to be usable, desirable, and accessible.
+                        Marking any pain point from the users to make
+                        improvements to the given design.
                       </p>
                     </div>
                   </div>
@@ -331,24 +427,18 @@ export default function Home() {
                 <li>
                   <div>
                     <div>
-                      <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold mt-8 lg:mt-0">
+                      <h5 className="text-xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Deliver
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300 font-medium">
-                        Delivering the solution to the engineering team and continuously being involved in maintaining the product quality.
+                      <p className="mt-2 text-base leading-6 text-gray-900 ">
+                        Delivering the solution to the engineering team and
+                        continuously being involved in maintaining the product
+                        quality.
                       </p>
                     </div>
                   </div>
                 </li>
               </ul>
-              <div className="mt-16">
-                <a
-                  href="mailto:hello@edgarlouis.com"
-                  className="text-xl font-semibold leading-6 mt-4 text-indigo-700 cursor-pointer hover:text-indigo-300"
-                >
-                  — Contact me for a project
-                </a>
-              </div>
             </div>
             <div className="-mx-4 py-16 md:py-0 md:-mx-12 relative lg:mt-0 lg:col-start-1 lg:col-span-1">
               <img
@@ -358,12 +448,52 @@ export default function Home() {
               />
             </div>
           </div>
+
+          <div className=" leading-7 text-gray-900 bg-white my-10 md:my-32">
+            <div className="max-w-5xl mx-auto border-solid ">
+              <div className="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
+                <div className="box-border flex-1 text-center border-solid sm:text-left">
+                  <h2 className="m-0 text-3xl font-extrabold sm:text-4xl leading-tight tracking-tight text-left text-gray-900 border-0 border-gray-200">
+                    Have an idea in mind?
+                  </h2>
+                  <p className="mt-4 text-xl text-left text-gray-900 sm:text-2xl border-0 border-gray-200 ">
+                    I will help you by providing the best design solution.
+                  </p>
+                </div>
+                <div className="mt-10">
+                  <a
+                    href="mailto:hello@edgarlouis.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button
+                      type="button"
+                      className="inline-flex items-center justify-center w-full py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow"
+                    >
+                      Contact me
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-5 h-5 ml-2"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
+      </div>{" "}
       {/* Related Works */}
-
-      <div className="w-full bg-white p-4 pt-10 md:pt-12 border-t-2 border-gray-100 lg:transform lg:-translate-y-40">
+      <div className="w-full bg-white p-4 pt-10 md:pt-12 border-t-2 border-gray-100">
         <div className="max-w-5xl mx-auto mb-12 md:mb-24">
           <div className="header flex items-end justify-between mb-6">
             <div className="title">
@@ -405,20 +535,12 @@ export default function Home() {
                 />
               </div>
             </div>
+
             <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
                   alt=""
                   src={Checkout}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </div>
-            <div className="overflow-hidden shadow-xl rounded-lg m-auto">
-              <div className="w-full block h-full">
-                <img
-                  alt=""
-                  src={Livestream}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -432,6 +554,16 @@ export default function Home() {
                 />
               </div>
             </div>
+            <div className="overflow-hidden shadow-xl rounded-lg m-auto">
+              <div className="w-full block h-full">
+                <img
+                  alt=""
+                  src={Livestream}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+
             <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
@@ -456,11 +588,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="header text-center mt-16 lg:mt-0 lg:transform lg:translate-y-32">
+          <div className="header text-center mt-16 lg:mt-24">
             <div className="title align-middle ">
               <a
                 href="https://dribbble.com/edgarlouis"
-                className="text-gray-400 hover:text-gray-500 transform hover:bg-gray-100 px-4 py-4"
+                className="text-gray-400 rounded-full hover:text-gray-500 transform hover:bg-gray-100 px-4 py-4"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -474,12 +606,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* CTA */}
-      <div className="w-full bg-indigo-600">
-        <div className="container max-w-5xl bg-indigo-600 overflow-hidden relative mx-auto ">
+      <div className="w-full bg-gradient-to-r from-indigo-700 to-blue-500">
+        <div className="container max-w-5xl bg-transparent overflow-hidden relative mx-auto ">
           <div
-            className="text-start w-full px-4 md:px-12 xl:px-0 md:w-1/2 py-12 lg:py-20 z-20"
+            className="text-start w-full px-4 md:px-12 xl:px-0 md:w-1/2 py-12 lg:py-40 z-20"
             id="about"
           >
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
@@ -487,14 +618,16 @@ export default function Home() {
               <span className="block text-white">Get in touch.</span>
             </h2>
             <p className="text-xl mt-4 text-indigo-200">
-              Hi! I'm Ed - currently working as a freelance UI/UX designer. If you have any ideas for apps and have a passion for solving problems and make a good impact, don't hesitate to contact me.
+              Hi! I'm Ed - currently working as a freelance UI/UX designer. If
+              you have any ideas for apps and have a passion for solving
+              problems and make a good impact, don't hesitate to contact me.
             </p>
             <div className="lg:mt-0 lg:flex-shrink-0">
-              <div className="mt-12 inline-flex rounded-md shadow">
+              <div className="mt-12 inline-flex rounded-md">
                 <a href="mailto:hello@edgarlouis.com">
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 text-lg leading-6 font-bold rounded-full bg-indigo-400 hover:bg-indigo-800 focus:outline-none  transition duration-150 ease-in-out"
                   >
                     hello@edgarlouis.com
                   </button>
@@ -509,16 +642,14 @@ export default function Home() {
           />
         </div>
       </div>
-
       {/* Footer */}
-
       <footer className="text-gray-200 bg-gray-800 body-font">
         <div className="container flex flex-col items-center py-8 mx-auto max-w-5xl sm:flex-row px-0 md:px-12 xl:px-0">
           <a
             href="/"
             className="text-xl font-black leading-none text-white select-none logo"
           >
-            EdgarLouis
+            edgarlouis
           </a>
           <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
             &copy; 2021 - Created by Edgar Louis
