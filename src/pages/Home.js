@@ -261,7 +261,7 @@ export default function Home() {
       {/* {Other case studies} */}
       <div>
         <div className="container relative max-w-5xl bg-white mx-auto text-gray-900 mt-10 md:mb-24">
-          <div className="header flex items-end justify-between mb-6">
+          <div className="header flex items-end justify-between mb-4">
             <div className="title px-4 md:px-12 xl:px-0">
               <p className="text-base font-bold text-gray-400 mb-4">
                 OTHER WORKS
@@ -272,7 +272,7 @@ export default function Home() {
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4 px-4 md:px-12 xl:px-0">
               <a href="#_" className="block">
                 <img
-                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-lg max-h-56"
                   src={Duo}
                   alt="Duolingo-logo"
                 />
@@ -284,12 +284,13 @@ export default function Home() {
                 <a href="#_">Revamping a Language Education Apps: Duolingo</a>
               </h2>
               <p className="text-base text-gray-900">
-                Learn the attributes you need to gain in order to build a future
-                and create a life that you are truly happy with.
+                As the demand for language based eduacation platform is
+                increased, we tried to listen to what the Duolingo users' need
+                and pain point, and did a revamp for it.
               </p>
               <p className="pt-2 text-xs font-medium">
                 <span className="mr-1">July 7, 2021</span> ·{" "}
-                <span className="mx-1 text-gray-600">3 min. read</span>
+                <span className="mx-1 text-gray-600">4 min. read</span>
               </p>
             </div>
 
@@ -301,7 +302,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-lg max-h-56"
                   src={Co}
                   alt="Co-apps-interface"
                 />
@@ -338,7 +339,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-lg max-h-56"
                   src={CheckoutImg}
                   alt='By <a href="https://unsplash.com/@yakimadesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jordan Rowland</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
                 />
@@ -368,10 +369,13 @@ export default function Home() {
         </div>
       </div>
       {/* Process */}
-      <div className="w-full bg-white  mt-10 lg:mt-0 ">
+      <div className="w-full bg-white mt-0">
         <div className="container px-4 relative max-w-5xl bg-white mx-auto md:px-12 xl:px-0 ">
-          <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center ">
-            <div className="lg:col-start-2 lg:col-span-2 md:pl-20" id="process">
+          <div className="grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center ">
+            <div
+              className="order-last lg:col-start-2 lg:col-span-2 md:pl-20"
+              id="process"
+            >
               <h4 className="text-4xl  font-bold text-gray-900 dark:text-white tracking-tight leading-tight">
                 The process that I use throughout the product development.
               </h4>
@@ -440,7 +444,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="-mx-4 py-16 md:py-0 md:-mx-12 relative lg:mt-0 lg:col-start-1 lg:col-span-1">
+            <div className="order first -mx-4 py-10 md:py-0 md:-mx-12 relative lg:mt-0 lg:col-start-1 lg:col-span-1">
               <img
                 src={Hands}
                 alt="illustration"
@@ -449,7 +453,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" leading-7 text-gray-900 bg-white my-10 md:my-32">
+          <div className=" leading-7 text-gray-900 bg-white my-16 md:my-32">
             <div className="max-w-5xl mx-auto border-solid ">
               <div className="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
                 <div className="box-border flex-1 text-center border-solid sm:text-left">
@@ -596,9 +600,9 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="text-xl font-semibold text-pink-500 inline-block align-middle ">
-                  <i className="fab fa-dribbble-square text-2xl" /> Discover
-                  more on Dribbble{" "}
+                <span className="text-lg md:text-xl font-semibold text-pink-500 inline-block align-middle ">
+                  <i className="fab fa-dribbble-square text-lg md:text-2xl" />{" "}
+                  Discover more on Dribbble{" "}
                   <i className="fas fa-angle-right text-base transform hover:translate-x-6" />
                 </span>
               </a>
