@@ -11,14 +11,12 @@ import Profile from "../assets/MOOC-Profile.png";
 import AR from "../assets/AR.gif";
 import Checkout from "../assets/Checkout.png";
 import Sneakers from "../assets/Sneakers-App.gif";
-import Nimble from "../assets/Nimble.png";
 import Livestream from "../assets/Livestreaming-Web.png";
 import Aqimosgif from "../assets/Aqimos.gif";
 import Autoroom from "../assets/Autoroom.png";
-import Move from "../assets/Move.png";
 import ThreeD from "../assets/3d.png";
 import CheckoutImg from "../assets/checkout.jpg";
-import Duo from "../assets/Duo.svg";
+import Duo from "../assets/Duo.png";
 
 export default function Home() {
   return (
@@ -572,23 +570,9 @@ export default function Home() {
               <div className="w-full block h-full">
                 <img
                   alt=""
-                  src={Nimble}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </div>
-            <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
-              <div className="w-full block h-full">
-                <img
-                  alt=""
                   src={Autoroom}
                   className="h-full w-full object-cover"
                 />
-              </div>
-            </div>
-            <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
-              <div className="w-full block h-full">
-                <img alt="" src={Move} className="h-full w-full object-cover" />
               </div>
             </div>
           </div>
