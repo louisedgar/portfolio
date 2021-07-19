@@ -13,7 +13,7 @@ import Checkout from "../assets/Checkout.png";
 import Sneakers from "../assets/Sneakers-App.gif";
 import Livestream from "../assets/Livestreaming-Web.png";
 import Aqimosgif from "../assets/Aqimos.gif";
-import Autoroom from "../assets/Autoroom.png";
+import Train from "../assets/Train.png";
 import ThreeD from "../assets/3d.png";
 import CheckoutImg from "../assets/checkout.jpg";
 import Duo from "../assets/Duo.png";
@@ -76,7 +76,7 @@ export default function Home() {
             <span className="inline-flex">
               <a
                 href="mailto:hello@edgarlouis.com"
-                className="md:inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-indigo-800 whitespace-no-wrap transition duration-150 ease-in-out bg-white border border-transparent rounded-full hover:bg-indigo-800 hover:text-white focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 hidden md:visible"
+                className="md:inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-indigo-800 whitespace-no-wrap transition duration-150 ease-in-out bg-white border border-transparent rounded-full hover:bg-indigo-800 hover:text-white focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 hidden md:visible shadow-xl"
               >
                 Contact me
               </a>
@@ -117,49 +117,62 @@ export default function Home() {
         </div>
       </section>
       {/* Works */}
-      <div className="container relative max-w-5xl bg-white mx-auto mt-12 lg:mt-24">
+      <div className="container relative max-w-5xl bg-white mx-auto mt-10 lg:mt-24 ">
         <div className="flex flex-wrap overflow-hidden lg:-mx-5">
           <div
-            className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2"
+            className="w-full overflow-hidden  md:absolute h-full lg:my-5 pb-10 lg:px-5 lg:w-1/2 z-0"
             id="works"
           >
             {/* <!-- Column Content --> */}
-            <div className="mt-10 md:mt-8 max-w-md lg:transform lg:translate-y-8">
-              <h4 className="text-4xl leading-8 font-bold text-gray-900 dark:text-white tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0 ">
+            <div className="mt-10 md:mt-8 max-w-md lg:transform lg:translate-y-8 order-1 md:order-none">
+              <h4 className="text-4xl leading-8 font-bold text-gray-900 tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0 ">
                 Recent projects
               </h4>
 
               <p className="mt-6 text-lg font-medium mt-4 text-gray-900  px-4 md:px-12 xl:px-0">
                 These are some projects that I've been successfully completed.
                 You can read fully the breakdown of the design process in the
-                study case published at Bootcamp - one of the UX largest
-                publications at Medium.
+                study case published at{" "}
+                <a
+                  href="https://bootcamp.uxdesign.cc/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 hover:text-indigo-900 text-bold"
+                >
+                  Bootcamp
+                </a>{" "}
+                - one of the UX largest publications at Medium.
               </p>
               <div className="mt-10 px-4 md:px-12 xl:px-0">
                 <a
-                  href="https://bootcamp.uxdesign.cc/"
+                  href="mailto:hello@edgarlouis.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-xl"
                   >
-                    Medium @Bootcamp
+                    Contact for projects
                   </button>
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 mt-16 lg:mt-0">
+          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 mt-8 lg:mt-96 z-10 order-3 md:order-none">
             {/* <!-- Column Content --> */}
-
-            <img
-              src={Mantis}
-              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
-              alt=""
-            ></img>
+            <a
+              href="https://bootcamp.uxdesign.cc/case-study-water-pressure-monitoring-web-app-21be037e0097?gi=fbd5f8e56b0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={Mantis}
+                className="md:px-4 md:px-12 md:mt-32 xl:px-0 md:rounded-lg shadow-xl"
+                alt=""
+              ></img>
+            </a>
 
             <div className="mt-8 mb-10 md:max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
@@ -186,14 +199,97 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full overflow-hidden mt-8 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 lg:transform lg:-translate-y-96">
+          <div className="w-full overflow-hidden lg:my-5 lg:px-5 lg:w-1/2 mt-12 lg:mt-0 order-2 md:order-none">
             {/* <!-- Column Content --> */}
+            <a
+              href="https://bootcamp.uxdesign.cc/case-study-revamping-a-language-learning-app-bdc41f0f3109"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={Duo}
+                className="md:px-4 md:px-12 xl:px-0 md:rounded-lg shadow-xl"
+                alt=""
+              ></img>
+            </a>
 
-            <img
-              src={Formbuilder}
-              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
-              alt=""
-            ></img>
+            <div className="mt-8 mb-10 md:max-w-xs">
+              <h5 className="text-xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+                Revamping Duolingo
+              </h5>
+
+              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+                As the demand for language based eduacation platform is
+                increased, we tried to listen to what the Duolingo users' needs
+                and pain points, and did a revamp for it.
+              </p>
+              <div className="mt-4">
+                <a
+                  href="https://bootcamp.uxdesign.cc/case-study-revamping-a-language-learning-app-bdc41f0f3109"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-900 px-4 md:px-12 xl:px-0">
+                    Read case study
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full overflow-hidden  mt-8 lg:mt-32 lg:my-5 lg:px-5 lg:w-1/2 order-5 md:order-none  z-10">
+            {/* <!-- Column Content --> */}
+            <a
+              href="https://louisedgar.medium.com/redesigning-aqimos-4f415ef6e39e"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={Aqimos}
+                className="md:px-4 md:px-12 xl:px-0 md:rounded-lg shadow-xl"
+                alt=""
+              ></img>
+            </a>
+
+            <div className="mt-8 mb-10 md:max-w-xs">
+              <h5 className="text-xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+                AQimos
+              </h5>
+
+              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+                AQimos is a software that monitors air composition. The devices
+                surrounding a particular area sent data accordingly by the
+                back-end that provides API. The data then are processed by the
+                front-end which will be used by the person in charge to measure
+                the quality of the air.
+              </p>
+              <div className="mt-4">
+                <a
+                  href="https://louisedgar.medium.com/redesigning-aqimos-4f415ef6e39e"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-900 px-4 md:px-12 xl:px-0">
+                    Read case study
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full overflow-hidden mt-8 lg:my-5 lg:px-5 lg:w-1/2 lg:mt-0 lg:transform lg:-translate-y-96 order-4 md:order-none">
+            {/* <!-- Column Content --> */}
+            <a
+              href="https://bootcamp.uxdesign.cc/building-a-custom-form-builder-fb879ae53085"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={Formbuilder}
+                className="md:px-4 md:px-12 xl:px-0 md:rounded-lg shadow-xl"
+                alt=""
+              ></img>
+            </a>
 
             <div className="mt-8 mb-10 md:max-w-xs">
               <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
@@ -219,80 +315,20 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="w-full overflow-hidden mt-8 md:mt-0 lg:my-5 lg:px-5 lg:w-1/2 ">
-            {/* <!-- Column Content --> */}
-
-            <img
-              src={Aqimos}
-              className="md:px-4 md:px-12 xl:px-0 md:rounded-lg md:shadow-lg"
-              alt=""
-            ></img>
-
-            <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
-                AQimos
-              </h5>
-
-              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
-                AQimos is a software that monitors air composition. The devices
-                surrounding a particular area sent data accordingly by the
-                back-end that provides API. The data then are processed by the
-                front-end which will be used by the person in charge to measure
-                the quality of the air.
-              </p>
-              <div className="mt-4">
-                <a
-                  href="https://louisedgar.medium.com/redesigning-aqimos-4f415ef6e39e"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-900 px-4 md:px-12 xl:px-0">
-                    Read case study
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       {/* {Other case studies} */}
-      <div>
-        <div className="container relative max-w-5xl bg-white mx-auto text-gray-900 mt-10 md:mb-24">
-          <div className="header flex items-end justify-between mb-4">
+      <div className="bg-gray-50 mt-12 md:mt-10 md:mb-10">
+        <div className="container relative max-w-5xl bg-white mx-auto pt-10 md:pt-16 md:pb-10 pb-4 text-gray-900 bg-gray-50">
+          <div className="header flex items-end justify-between content-center mb-4">
             <div className="title px-4 md:px-12 xl:px-0">
               <p className="text-base font-bold text-gray-400 mb-4">
                 OTHER WORKS
               </p>
             </div>
           </div>
-          <div className="flex grid grid-cols-12 pb-10  gap-x-8 gap-y-16">
-            <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4 px-4 md:px-12 xl:px-0">
-              <a href="#_" className="block">
-                <img
-                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-lg max-h-56"
-                  src={Duo}
-                  alt="Duolingo-logo"
-                />
-              </a>
-              <div className="bg-purple-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
-                <span>Case Study</span>
-              </div>
-              <h2 className="text-lg font-bold sm:text-xl md:text-2xl">
-                <a href="#_">Revamping a Language Education Apps: Duolingo</a>
-              </h2>
-              <p className="text-base text-gray-900">
-                As the demand for language based eduacation platform is
-                increased, we tried to listen to what the Duolingo users' need
-                and pain point, and did a revamp for it.
-              </p>
-              <p className="pt-2 text-xs font-medium">
-                <span className="mr-1">July 7, 2021</span> ·{" "}
-                <span className="mx-1 text-gray-600">4 min. read</span>
-              </p>
-            </div>
-
-            <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4 px-4 md:px-12 xl:px-0">
+          <div className="flex grid grid-cols-2 pb-10 gap-x-10 gap-y-16">
+            <div className="flex flex-col items-start col-span-2 md:col-span-1 space-y-3 px-4 md:px-12 xl:px-0">
               <a
                 href="https://louisedgar.medium.com/co-a-collaboration-messaging-platform-simplified-6ce26389345d"
                 className="block"
@@ -300,7 +336,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-lg max-h-56"
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-xl max-h-full"
                   src={Co}
                   alt="Co-apps-interface"
                 />
@@ -329,7 +365,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4 px-4 md:px-12 xl:px-0">
+            <div className="flex flex-col items-start  col-span-2 md:col-span-1 space-y-3  px-4 md:px-12 xl:px-0">
               <a
                 href="https://louisedgar.medium.com/designing-a-minimal-checkout-page-327710b1d836"
                 className="block"
@@ -337,7 +373,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-lg max-h-56"
+                  className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-xl max-h-full"
                   src={CheckoutImg}
                   alt='By <a href="https://unsplash.com/@yakimadesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jordan Rowland</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
                 />
@@ -367,7 +403,7 @@ export default function Home() {
         </div>
       </div>
       {/* Process */}
-      <div className="w-full bg-white mt-0">
+      <div className="w-full bg-white mt-16">
         <div className="container px-4 relative max-w-5xl bg-white mx-auto md:px-12 xl:px-0 ">
           <div className="grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center ">
             <div
@@ -442,7 +478,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="order first -mx-4 py-10 md:py-0 md:-mx-12 relative lg:mt-0 lg:col-start-1 lg:col-span-1">
+            <div className="order first -mx-4 pb-10 pt-0 md:py-0 md:-mx-12 relative lg:mt-0 lg:col-start-1 lg:col-span-1">
               <img
                 src={Hands}
                 alt="illustration"
@@ -470,7 +506,7 @@ export default function Home() {
                   >
                     <button
                       type="button"
-                      className="inline-flex items-center justify-center w-full py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow"
+                      className="inline-flex items-center justify-center w-full py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-xl"
                     >
                       Contact me
                       <svg
@@ -509,6 +545,15 @@ export default function Home() {
               <div className="w-full block h-full">
                 <img
                   alt=""
+                  src={Train}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
+              <div className="w-full block h-full">
+                <img
+                  alt=""
                   src={Digify}
                   className="h-full w-full object-cover"
                 />
@@ -542,25 +587,7 @@ export default function Home() {
               <div className="w-full block h-full">
                 <img
                   alt=""
-                  src={Checkout}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </div>
-            <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
-              <div className="w-full block h-full">
-                <img
-                  alt=""
                   src={Sneakers}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </div>
-            <div className="overflow-hidden shadow-xl rounded-lg m-auto">
-              <div className="w-full block h-full">
-                <img
-                  alt=""
-                  src={Livestream}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -570,7 +597,16 @@ export default function Home() {
               <div className="w-full block h-full">
                 <img
                   alt=""
-                  src={Autoroom}
+                  src={Checkout}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden shadow-xl rounded-lg m-auto">
+              <div className="w-full block h-full">
+                <img
+                  alt=""
+                  src={Livestream}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -615,7 +651,7 @@ export default function Home() {
                 <a href="mailto:hello@edgarlouis.com">
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 text-lg leading-6 font-bold rounded-full bg-indigo-400 hover:bg-indigo-800 focus:outline-none  transition duration-150 ease-in-out"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 text-lg leading-6 font-bold rounded-full bg-indigo-400 hover:bg-indigo-800 focus:outline-none  transition duration-150 ease-in-out shadow-xl"
                   >
                     hello@edgarlouis.com
                   </button>
