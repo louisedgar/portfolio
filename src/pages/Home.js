@@ -175,7 +175,7 @@ export default function Home() {
             </a>
 
             <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
                 iGauge Logger
               </h5>
 
@@ -214,7 +214,7 @@ export default function Home() {
             </a>
 
             <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
                 Revamping Duolingo
               </h5>
 
@@ -252,7 +252,7 @@ export default function Home() {
             </a>
 
             <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
                 AQimos
               </h5>
 
@@ -292,7 +292,7 @@ export default function Home() {
             </a>
 
             <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
+              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 Formbuilder
               </h5>
 
