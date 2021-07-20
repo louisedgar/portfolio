@@ -174,8 +174,8 @@ export default function Home() {
               ></img>
             </a>
 
-            <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+            <div className="mt-8 mb-10 md:ml-2 md:max-w-xs">
+              <h5 className="text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
                 iGauge Logger
               </h5>
 
@@ -213,8 +213,8 @@ export default function Home() {
               ></img>
             </a>
 
-            <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+            <div className="mt-8 mb-10 md:ml-2 md:max-w-xs">
+              <h5 className="text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
                 Revamping Duolingo
               </h5>
 
@@ -251,8 +251,8 @@ export default function Home() {
               ></img>
             </a>
 
-            <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
+            <div className="mt-8 mb-10 md:ml-2 md:max-w-xs">
+              <h5 className="text-2xl leading-6 text-gray-900 font-bold px-4 md:px-12 xl:px-0">
                 AQimos
               </h5>
 
@@ -291,8 +291,8 @@ export default function Home() {
               ></img>
             </a>
 
-            <div className="mt-8 mb-10 md:max-w-xs">
-              <h5 className="text-xl md:text-2xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
+            <div className="mt-8 mb-10 md:ml-2 md:max-w-xs">
+              <h5 className="text-2xl leading-6 text-gray-900 dark:text-white font-bold px-4 md:px-12 xl:px-0">
                 Formbuilder
               </h5>
 
@@ -421,10 +421,10 @@ export default function Home() {
                 <li>
                   <div>
                     <div>
-                      <h5 className="text-xl leading-6 text-gray-900 dark:text-white font-bold">
+                      <h5 className="text-2xl leading-6 text-gray-900 dark:text-white font-bold">
                         Research
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-base leading-6 text-gray-900 ">
                         Generating and validating ideas in the earliest
                         development process, which involves the interview of
                         stakeholders and end-user, to decide the project
@@ -436,10 +436,10 @@ export default function Home() {
                 <li>
                   <div>
                     <div>
-                      <h5 className="text-xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
+                      <h5 className="text-2xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Design
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-base leading-6 text-gray-900 ">
                         Making design solutions based on the insight found in
                         the research phase. The design process ensures close
                         collaboration with the team.
@@ -450,10 +450,10 @@ export default function Home() {
                 <li>
                   <div>
                     <div>
-                      <h5 className="text-xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
+                      <h5 className="text-2xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Test
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-base leading-6 text-gray-900 ">
                         Testing the prototype to ensure that the solution is
                         robust enough to be usable, desirable, and accessible.
                         Marking any pain point from the users to make
@@ -465,10 +465,10 @@ export default function Home() {
                 <li>
                   <div>
                     <div>
-                      <h5 className="text-xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
+                      <h5 className="text-2xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Deliver
                       </h5>
-                      <p className="mt-2 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-base leading-6 text-gray-900 ">
                         Delivering the solution to the engineering team and
                         continuously being involved in maintaining the product
                         quality.
@@ -651,7 +651,7 @@ export default function Home() {
                 <a href="mailto:hello@edgarlouis.com">
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 text-lg leading-6 font-bold rounded-full bg-indigo-400 hover:bg-indigo-800 focus:outline-none  transition duration-150 ease-in-out shadow-xl"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 text-lg leading-6 font-semibold rounded-full bg-indigo-400 hover:bg-indigo-800 focus:outline-none  transition duration-150 ease-in-out shadow-xl"
                   >
                     hello@edgarlouis.com
                   </button>
