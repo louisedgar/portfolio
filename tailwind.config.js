@@ -1,11 +1,6 @@
 module.exports = {
   purge: [],
   theme: {
-    fontFamily: {
-      display: ["Proxima Nova", "sans-serif"],
-      body: ["Proxima Nova", "sans-serif"],
-    },
-
     backgroundColor: (theme) => ({
       ...theme("colors"),
       primary: "#3332E5",
@@ -17,6 +12,10 @@ module.exports = {
       }),
       colors: {
         accent: "#3332E5",
+      },
+      fontFamily: {
+        display: ["Inter"],
+        body: ["Inter"],
       },
     },
   },
