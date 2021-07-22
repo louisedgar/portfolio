@@ -100,7 +100,7 @@ export default function Home() {
                     best experience. {""}
                   </span>
                 </h1>
-                <p className="mx-auto text-base text-indigo-200 font-medium sm:max-w-md lg:text-xl md:max-w-3xl">
+                <p className="mx-auto leading-8 text-indigo-200  sm:max-w-md text-2xl md:max-w-3xl">
                   I thrive on making usable, accessible, and desirable products
                   - by analyzing the root cause, defining the needs, solving the
                   right problem, and designing for the best experience.
@@ -108,7 +108,7 @@ export default function Home() {
                 <div className="relative flex flex-col sm:flex-row sm:space-x-4"></div>
               </div>
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 mt-6 md:mt-0">
               <div className="w-full h-auto overflow-hidden rounded-md sm:rounded-xl transform scale-125">
                 <img src={Hero} alt=""></img>
               </div>
@@ -125,11 +125,11 @@ export default function Home() {
           >
             {/* <!-- Column Content --> */}
             <div className="mt-10 md:mt-8 max-w-md lg:transform lg:translate-y-8 order-1 md:order-none">
-              <h4 className="text-4xl leading-8 font-bold text-gray-900 tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0 ">
+              <h4 className="text-4xl leading-8 font-extrabold text-gray-900 tracking-tight sm:leading-9 px-4 md:px-12 xl:px-0 ">
                 Recent projects
               </h4>
 
-              <p className="mt-6 text-lg font-medium mt-4 text-gray-900  px-4 md:px-12 xl:px-0">
+              <p className="mt-6 text-xl leading-8  text-gray-700  mt-4 px-4 md:px-12 xl:px-0">
                 These are some projects that I've been successfully completed.
                 You can read fully the breakdown of the design process in the
                 study case published at{" "}
@@ -179,7 +179,7 @@ export default function Home() {
                 iGauge Logger
               </h5>
 
-              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+              <p className="text-xl leading-8 mt-4 text-gray-700 px-4 md:px-12 xl:px-0">
                 iGauge Logger is about water pressure and decision-making. It
                 tracks the water pressure for pipelines that spread across the
                 city. The data are used as a consideration to control and
@@ -218,7 +218,7 @@ export default function Home() {
                 Revamping Duolingo
               </h5>
 
-              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+              <p className="text-xl leading-8 mt-4 text-gray-700 px-4 md:px-12 xl:px-0">
                 As the demand for language based eduacation platform is
                 increased, we tried to listen to what the Duolingo users' needs
                 and pain points, and did a revamp for it.
@@ -256,7 +256,7 @@ export default function Home() {
                 AQimos
               </h5>
 
-              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+              <p className="text-xl leading-8 mt-4 text-gray-700 px-4 md:px-12 xl:px-0">
                 AQimos is a software that monitors air composition. The devices
                 surrounding a particular area sent data accordingly by the
                 back-end that provides API. The data then are processed by the
@@ -296,7 +296,7 @@ export default function Home() {
                 Formbuilder
               </h5>
 
-              <p className="text-lg mt-4 text-gray-900 px-4 md:px-12 xl:px-0">
+              <p className="text-xl leading-8 mt-4 text-gray-700 px-4 md:px-12 xl:px-0">
                 A form building software for an organization's internal use. The
                 design system ensures the users generate a consistent form - for
                 any necessity - which not only provides a positive experience
@@ -354,7 +354,7 @@ export default function Home() {
                   Co. - a collaboration platform
                 </a>
               </h2>
-              <p className="text-base text-gray-900">
+              <p className="text-lg text-gray-800">
                 Co. is a web app that serves as a collaboration tool. Users can
                 chat, create their own server and channel to make collaboration
                 with their peers easier.
@@ -391,7 +391,7 @@ export default function Home() {
                   A less overwhelming checkout page
                 </a>
               </h2>
-              <p className="text-base text-gray-900">
+              <p className="text-lg text-gray-800">
                 The checkout page can be overwhelming. This is how I clean it.
               </p>
               <p className="pt-2 text-xs font-medium">
@@ -403,17 +403,17 @@ export default function Home() {
         </div>
       </div>
       {/* Process */}
-      <div className="w-full bg-white mt-16">
+      <div className="w-full bg-white mt-24">
         <div className="container px-4 relative max-w-5xl bg-white mx-auto md:px-12 xl:px-0 ">
           <div className="grid lg:grid-flow-row-dense lg:grid-cols-3 lg:gap-12 lg:items-center ">
             <div
               className="order-last lg:col-start-2 lg:col-span-2 md:pl-20"
               id="process"
             >
-              <h4 className="text-4xl  font-bold text-gray-900 dark:text-white tracking-tight leading-tight">
+              <h4 className="text-4xl font-extrabold text-gray-900 dark:text-white tracking-tight leading-tight">
                 The process that I use throughout the product development.
               </h4>
-              <p className="mt-6 text-lg font-medium leading-6 mt-4 text-gray-900 ">
+              <p className="mt-6 text-xl leading-8  text-gray-700 mt-4">
                 Using design thinking and double diamond framework, several
                 iterations are expected to meet the best end result.
               </p>
@@ -424,7 +424,7 @@ export default function Home() {
                       <h5 className="text-2xl leading-6 text-gray-900 dark:text-white font-bold">
                         Research
                       </h5>
-                      <p className="mt-4 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-lg leading-7 text-gray-700 ">
                         Generating and validating ideas in the earliest
                         development process, which involves the interview of
                         stakeholders and end-user, to decide the project
@@ -439,7 +439,7 @@ export default function Home() {
                       <h5 className="text-2xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Design
                       </h5>
-                      <p className="mt-4 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-lg leading-7 text-gray-700 ">
                         Making design solutions based on the insight found in
                         the research phase. The design process ensures close
                         collaboration with the team.
@@ -453,7 +453,7 @@ export default function Home() {
                       <h5 className="text-2xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Test
                       </h5>
-                      <p className="mt-4 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-lg leading-7 text-gray-700 ">
                         Testing the prototype to ensure that the solution is
                         robust enough to be usable, desirable, and accessible.
                         Marking any pain point from the users to make
@@ -468,7 +468,7 @@ export default function Home() {
                       <h5 className="text-2xl leading-6 text-gray-900  font-bold mt-8 lg:mt-0">
                         Deliver
                       </h5>
-                      <p className="mt-4 text-base leading-6 text-gray-900 ">
+                      <p className="mt-4 text-lg leading-7 text-gray-700 ">
                         Delivering the solution to the engineering team and
                         continuously being involved in maintaining the product
                         quality.
@@ -487,14 +487,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" leading-7 text-gray-900 bg-white my-16 md:my-32">
+          <div className="leading-7 text-white bg-gradient-to-r from-indigo-700 to-blue-500 my-16 md:my-24 px-8 py-16 md:px-24 md:py-24 rounded-xl shadow-xl">
             <div className="max-w-5xl mx-auto border-solid ">
-              <div className="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
+              <div className="flex flex-col items-start leading-7 text-white border-0 border-gray-200 lg:items-center lg:flex-row">
                 <div className="box-border flex-1 text-center border-solid sm:text-left">
-                  <h2 className="m-0 text-3xl font-extrabold sm:text-4xl leading-tight tracking-tight text-left text-gray-900 border-0 border-gray-200">
+                  <h2 className="m-0 text-3xl font-extrabold sm:text-4xl leading-tight tracking-tight text-left text-white border-0 border-gray-200">
                     Have an idea in mind?
                   </h2>
-                  <p className="mt-4 text-xl text-left text-gray-900 sm:text-2xl border-0 border-gray-200 ">
+                  <p className="mt-4 text-xl text-left text-white sm:text-2xl border-0 border-gray-200 ">
                     I will help you by providing the best design solution.
                   </p>
                 </div>
@@ -506,7 +506,7 @@ export default function Home() {
                   >
                     <button
                       type="button"
-                      className="inline-flex items-center justify-center w-full py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:bg-indigo-500 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-xl"
+                      className="inline-flex items-center justify-center w-full py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base  leading-6 font-medium rounded-md bg-white text-indigo-800 hover:bg-indigo-800 hover:text-white focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-xl"
                     >
                       Contact me
                       <svg
@@ -634,14 +634,14 @@ export default function Home() {
       <div className="w-full bg-gradient-to-r from-indigo-700 to-blue-500">
         <div className="container max-w-5xl bg-transparent overflow-hidden relative mx-auto ">
           <div
-            className="text-start w-full px-4 md:px-12 xl:px-0 md:w-1/2 py-12 lg:py-40 z-20"
+            className="text-start w-full px-4 md:px-12 xl:px-0 md:w-1/2 py-16 lg:py-24 z-20"
             id="about"
           >
-            <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+            <h2 className="text-4xl font-extrabold text-white">
               <span className="block">Say hi and let's collaborate!</span>
               <span className="block text-white">Get in touch.</span>
             </h2>
-            <p className="text-xl mt-4 text-indigo-200">
+            <p className="text-2xl mt-8 leading-8 text-indigo-200 ">
               Hi! I'm Ed - currently working as a freelance UI/UX designer. If
               you have any ideas for apps and have a passion for solving
               problems and make a good impact, don't hesitate to contact me.
