@@ -13,7 +13,7 @@ import Checkout from "../assets/Checkout.png";
 import Sneakers from "../assets/Sneakers-App.gif";
 import Livestream from "../assets/Livestreaming-Web.png";
 import Aqimosgif from "../assets/Aqimos.gif";
-import Train from "../assets/Train.png";
+import Autoroom from "../assets/Autoroom.png";
 import ThreeD from "../assets/3d.png";
 import CheckoutImg from "../assets/checkout.jpg";
 import Duo from "../assets/Duo.png";
@@ -29,7 +29,7 @@ export default function Home() {
               href="/"
               className="flex items-center ml-4 mb-5 mt-4 lg:mt-0 font-medium text-gray-900 w-1/2 lg:w-auto lg:items-center lg:justify-center md:mb-0"
             >
-              <span className="mx-auto text-xl font-black leading-none text-white select-none">
+              <span className="mx-auto sm:text-sm md:text-xl font-black leading-none text-white select-none">
                 edgar<span className="text-white">louis</span>
               </span>
             </a>
@@ -76,7 +76,7 @@ export default function Home() {
             <span className="inline-flex">
               <a
                 href="mailto:hello@edgarlouis.com"
-                className="md:inline-flex items-center justify-center px-5 py-2 text-base font-semibold leading-6  whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-full text-white blur-lg bg-indigo-400 hover:opacity-75 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 shadow-xl"
+                className="md:inline-flex items-center justify-center px-6 py-3 font-semibold leading-6  whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-full text-white blur-lg bg-gray-500 hover:opacity-75 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 shadow-lg sm:text-sm md:text-base bg-opacity-50"
               >
                 Contact me
               </a>
@@ -154,7 +154,7 @@ export default function Home() {
                 >
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md bg-gray-900 hover:opacity-75 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-xl"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-semibold rounded-md bg-gray-900 hover:opacity-75 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-lg"
                   >
                     Contact for projects
                   </button>
@@ -512,7 +512,7 @@ export default function Home() {
                   >
                     <button
                       type="button"
-                      className="inline-flex items-center justify-center w-full py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base  leading-6 font-medium rounded-md text-white blur-lg bg-indigo-400 hover:opacity-75 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-xl"
+                      className="inline-flex items-center justify-center w-full py-4 px-6 text-white items-center justify-center px-5 py-3 border border-transparent text-base  leading-6 font-semibold rounded-md text-white blur-lg bg-indigo-400 hover:opacity-75 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out rounded-full shadow-lg md:bg-gray-500 md:bg-opacity-50"
                     >
                       Contact me
                       <svg
@@ -547,15 +547,6 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
-              <div className="w-full block h-full">
-                <img
-                  alt=""
-                  src={Train}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </div>
             <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
               <div className="w-full block h-full">
                 <img
@@ -617,6 +608,15 @@ export default function Home() {
                 />
               </div>
             </div>
+            <div className="overflow-hidden shadow-xl rounded-lg  m-auto">
+              <div className="w-full block h-full">
+                <img
+                  alt=""
+                  src={Autoroom}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
           </div>
           <div className="header text-center mt-16 lg:mt-24">
             <div className="title align-middle ">
@@ -661,7 +661,7 @@ export default function Home() {
                 <a href="mailto:hello@edgarlouis.com">
                   <button
                     type="button"
-                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 leading-6 font-semibold rounded-full  blur-lg bg-indigo-400 hover:opacity-75 focus:outline-none  transition duration-150 ease-in-out shadow-xl"
+                    className="py-4 px-6 text-white items-center justify-center px-5 py-3 leading-6 font-semibold rounded-full  blur-lg bg-indigo-400 hover:opacity-75 focus:outline-none  transition duration-150 ease-in-out shadow-lg"
                   >
                     hello@edgarlouis.com
                   </button>
