@@ -11,12 +11,12 @@ import Sneakers from "../assets/Sneakers-App.gif";
 import Aqimosgif from "../assets/Aqimos.gif";
 import Autoroom from "../assets/Autoroom.png";
 import CheckoutImg from "../assets/checkout.jpg";
-import Duo from "../assets/duo.png";
 import Logo from "../assets/logo-white.svg";
 import Research from "../assets/research.svg";
 import Design from "../assets/design.svg";
 import Test from "../assets/test.svg";
 import Deliver from "../assets/deliver.svg";
+import Duo from "../assets/duolingo.png";
 
 export default function Home() {
   return (
