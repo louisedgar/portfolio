@@ -1,21 +1,33 @@
 module.exports = {
   purge: [],
   theme: {
+    textColor: {
+      primary: "#4E3ACC",
+      secondary: "#2B42D4",
+      accent: "#171949",
+      pink: "#CC3ABD",
+      dark: "#18191F",
+      white: "#FFFFFF",
+    },
     backgroundColor: (theme) => ({
       ...theme("colors"),
-      primary: "#3332E5",
+      primary: "#4E3ACC",
+      secondary: "#2B42D4",
+      accent: "#171949",
+      pink: "#CC3ABD",
+      dark: "#18191F",
+      white: "#FFFFFF",
     }),
 
     extend: {
       backgroundImage: (theme) => ({
-        "hero-img": "url('../src/assets/bg.png')",
+        "hero-image": "url('../src/assets/bg.png')",
+        "bg-cta": "url('../src/assets/bg-texture-1.png')",
+        "bg-footer": "url('../src/assets/bg-3.png')",
       }),
-      colors: {
-        accent: "#3332E5",
-      },
       fontFamily: {
-        display: ["Inter"],
-        body: ["Inter"],
+        display: ["Manrope"],
+        body: ["Manrope"],
       },
     },
   },
