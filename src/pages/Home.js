@@ -17,6 +17,7 @@ import Design from "../assets/design.svg";
 import Test from "../assets/test.svg";
 import Deliver from "../assets/deliver.svg";
 import Duo from "../assets/duolingo.png";
+import { Animated } from "react-animated-css";
 
 export default function Home() {
   return (
@@ -88,33 +89,44 @@ export default function Home() {
         <div className="container max-w-5xl items-center px-4 mx-auto lg:px-20 xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 ">
-              <div className="w-full lg:pb-6 space-y-6 lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-10  lg:pr-0 pb-0">
-                <div className="break-words font-extrabold leading-normal lg:leading-snug xl:leading-snug text-white text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
-                  Improving your digital product’s{" "}
-                  <span className="text-primary">user experience</span>
+              <Animated
+                animationIn="fadeInUp"
+                animationOut="fadeOut"
+                isVisible={true}
+              >
+                <div className="w-full lg:pb-6 space-y-6 lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-10  lg:pr-0 pb-0">
+                  <div className="break-words font-extrabold leading-normal lg:leading-snug xl:leading-snug text-white text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
+                    Improving your digital product’s{" "}
+                    <span className="text-primary">user experience</span>
+                  </div>
+
+                  <div className="text-white font-semibold text-xl leading-8">
+                    I thrive in making a more desirable, technology feasible,
+                    and business-viable products.
+                  </div>
+                  <div className="inline-flex items-center justify-end w-auto">
+                    <span className="inline-flex mt-8">
+                      <a
+                        href="mailto:hello@edgarlouis.com"
+                        className="justify-center w-full py-4 px-6 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-xl text-white bg-primary hover:opacity-75 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 text-lg md:text-base"
+                      >
+                        Contact me
+                      </a>
+                    </span>
+                  </div>
                 </div>
-                <div className="inline-flex items-center justify-end w-auto">
-                  <span className="inline-flex mt-8">
-                    <a
-                      href="mailto:hello@edgarlouis.com"
-                      className="justify-center w-full py-4 px-6 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-xl text-white bg-primary hover:opacity-75 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 text-lg md:text-base"
-                    >
-                      Contact me
-                    </a>
-                  </span>
-                </div>
-              </div>
+              </Animated>
             </div>
           </div>
         </div>
       </section>
       {/* Approach */}
       <div className="container relative max-w-5xl mx-auto bg-white text-center mt-16 lg:mt-20 border-b-2 pb-16 lg:pb-0 lg:border-none">
-        <div className="flex flex-col" id="process">
-          <span className="text-3xl lg:text-4xl font-extrabold text-dark">
-            My Approach
+        <div className="flex flex-col text-left" id="process">
+          <span className="text-3xl lg:text-4xl font-extrabold text-dark mx-4 lg:mx-0">
+            Design approach
           </span>
-          <div className="flex flex-col lg:flex-row justify-between gap-10 mt-8 lg:mt-16 px-12 lg:px-20 xl:px-0 text-dark">
+          <div className="flex flex-col lg:flex-row justify-between gap-10 mt-8 lg:mt-20 px-12 lg:px-20 xl:px-0 text-dark">
             <div className="text-center">
               <img src={Research} alt="" className="mx-auto"></img>
               <div className="text-lg font-extrabold mt-4">Research</div>
