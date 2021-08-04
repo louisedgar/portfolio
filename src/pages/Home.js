@@ -24,15 +24,15 @@ export default function Home() {
     <div className="overflow-hidden font-body">
       {/* Hero */}
       <header className="w-full px-2 md:px-12 xl:px-0 text-white border-b border-opacity-50 border-white absolute">
-        <div className="container flex flex-row lg:content-center lg:items-center lg:justify-between lg:py-5 mx-auto md:flex-row max-w-5xl md:px-3">
-          <div className="relative flex flex-row">
+        <div className="container flex flex-row lg:content-center lg:items-center lg:justify-between lg:py-5 mx-auto md:flex-row max-w-5xl md:pb-5">
+          <div className="relative flex flex-row lg:pl-20 xl:px-0">
             <a
               href="/"
               className="flex items-center mb-5 mt-4 px-2 lg:px-0 lg:mt-0 font-medium lg:w-auto lg:items-center lg:justify-center md:mb-0"
             >
               <img src={Logo} alt=""></img>
             </a>
-            <nav className="flex flex-wrap items-center mb-5 text-base space-x-8 md:mb-0 md:pl-8 lg:ml-36 xl:ml-64 invisible lg:visible absolute lg:relative">
+            <nav className="flex flex-wrap items-center mb-5 text-base space-x-8 md:mb-0 md:pl-8 md:ml-24 lg:ml-36 xl:ml-64 invisible md:visible absolute md:relative">
               <Link
                 activeClass="active"
                 to="process"
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </header>
       <section className="pt-36 pb-24 lg:pt-48 lg:pb-48 bg-hero-image bg-auto lg:bg-cover lg:bg-center bg-no-repeat h-full xl:px-0 text-left">
-        <div className="container max-w-5xl items-center px-4 mx-auto lg:px-20 xl:px-5">
+        <div className="container max-w-5xl items-center px-4 mx-auto md:px-20 lg:px-20 xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 ">
               <Animated
@@ -122,8 +122,11 @@ export default function Home() {
       </section>
       {/* Approach */}
       <div className="container relative max-w-5xl mx-auto bg-white text-center mt-16 lg:mt-20 border-b-2 pb-16 lg:pb-0 lg:border-none">
-        <div className="flex flex-col text-left" id="process">
-          <span className="text-3xl lg:text-4xl font-extrabold text-dark mx-4 lg:mx-0">
+        <div
+          className="flex flex-col text-left md:pl-20 lg:pl-20 xl:px-0"
+          id="process"
+        >
+          <span className="text-3xl lg:text-4xl font-extrabold text-dark mx-4 md:mx-0 lg:mx-0">
             Design approach
           </span>
           <div className="flex flex-col lg:flex-row justify-between gap-10 mt-8 lg:mt-20 px-12 lg:px-20 xl:px-0 text-dark">
@@ -162,7 +165,7 @@ export default function Home() {
       <div className="container relative max-w-5xl bg-white mx-auto mt-16 lg:mt-32 ">
         <div className="flex flex-wrap overflow-hidden lg:-mx-5">
           <div
-            className="w-full overflow-hidden  md:absolute h-full lg:my-5 pb-10 lg:px-5 lg:w-1/2 z-0"
+            className="w-full overflow-hidden lg:absolute h-full lg:my-5 pb-10 md:px-20 lg:px-5 lg:w-1/2 z-0"
             id="works"
           >
             {/* <!-- Column Content --> */}
@@ -196,17 +199,17 @@ export default function Home() {
             >
               <img
                 src={Mantis}
-                className="px-4 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10"
+                className="px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10"
                 alt=""
               ></img>
             </a>
 
             <div className="mt-8 mb-10">
-              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
+              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
                 iGauge Logger
               </h5>
 
-              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
+              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
                 iGauge Logger is about water pressure and decision-making. It
                 tracks the water pressure for pipelines that spread across the
                 city. The data are used as a consideration to control and
@@ -218,7 +221,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
+                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
                     Read case study
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -248,17 +251,17 @@ export default function Home() {
             >
               <img
                 src={Duo}
-                className="px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10"
+                className="px-4 md:px-20  lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10"
                 alt=""
               ></img>
             </a>
 
             <div className="mt-8 mb-10">
-              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
+              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 md:px-20  lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
                 Revamping Duolingo
               </h5>
 
-              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
+              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
                 As the demand for language based eduacation platform is
                 increased, we tried to listen to what the Duolingo users' needs
                 and pain points, and did a revamp for it.
@@ -269,7 +272,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
+                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
                     Read case study
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -299,17 +302,17 @@ export default function Home() {
             >
               <img
                 src={Aqimos}
-                className="px-4 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10"
+                className="px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10"
                 alt=""
               ></img>
             </a>
 
             <div className="mt-8 mb-10">
-              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 lg:pl-24 lg:pl-10 xl:pl-5 xl:pr-10">
+              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 md:px-20 lg:pl-24 lg:pl-10 xl:pl-5 xl:pr-10">
                 AQimos
               </h5>
 
-              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
+              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
                 AQimos is a software that monitors air composition. The devices
                 surrounding a particular area sent data accordingly by the
                 back-end that provides API. The data then are processed by the
@@ -322,7 +325,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
+                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10">
                     Read case study
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -352,17 +355,17 @@ export default function Home() {
             >
               <img
                 src={Formbuilder}
-                className="px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10"
+                className="px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10"
                 alt=""
               ></img>
             </a>
 
             <div className="mt-8 mb-10">
-              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
+              <h5 className="text-2xl leading-6 text-dark font-extrabold px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
                 Formbuilder
               </h5>
 
-              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
+              <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
                 A form building software for an organization's internal use. The
                 design system ensures the users generate a consistent form - for
                 any necessity - which not only provides a positive experience
@@ -374,7 +377,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
+                  <span className="inline-flex items-end justify-center text-base font-extrabold leading-6 text-primary hover:text-dark px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
                     Read case study
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -397,8 +400,8 @@ export default function Home() {
         </div>
       </div>
       {/* CTA */}
-      <div className="max-w-5xl bg-bg-cta bg-cover bg-center bg-no-repeat h-full rounded-xl mx-4 lg:mx-20 xl:mx-auto">
-        <div className="leading-7 text-white my-16 md:mt-10 md:mb-24 px-8 py-16 lg:px-24 xl:py-24">
+      <div className="max-w-5xl bg-bg-cta bg-cover bg-center bg-no-repeat h-full rounded-xl mx-4 lg:mx-40 xl:mx-auto">
+        <div className="leading-7 text-white my-16 md:mt-10 md:mb-24 px-8 py-16 md:px-20  lg:px-24 xl:py-24">
           <div className="max-w-5xl mx-auto border-solid">
             <div className="flex flex-col items-center leading-7 text-white border-0 border-gray-200 lg:items-center lg:flex-row">
               <div className="box-border flex-1 text-center border-solid sm:text-left">
@@ -515,7 +518,7 @@ export default function Home() {
 
       {/* Related Works */}
       <div className="w-full bg-white p-4 pt-16 lg:pt-16">
-        <div className="max-w-5xl mx-auto mb-12 lg:mb-24 lg:mx-16 xl:mx-auto">
+        <div className="max-w-5xl mx-auto mb-12 lg:mb-24 lg:mx-40 xl:mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="overflow-hidden rounded-lg m-auto">
               <div className="w-full block h-full">
@@ -591,7 +594,7 @@ export default function Home() {
       </div>
       {/* CTA */}
       <div className="bg-bg-footer bg-auto lg:bg-cover lg:bg-center bg-no-repeat">
-        <div className="container max-w-5xl bg-transparent overflow-hidden relative lg:mx-16 xl:mx-auto ">
+        <div className="container max-w-5xl bg-transparent overflow-hidden relative lg:mx-40 xl:mx-auto ">
           <div
             className="text-left max-w-md px-4 pt-10 pb-16 lg:py-20 xl:px-0 xl:pt-16 xl:pb-32 z-20"
             id="about"

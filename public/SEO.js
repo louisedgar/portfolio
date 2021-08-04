@@ -21,8 +21,8 @@ function SEO() {
         sizes="16x16"
         href="/favicon-16x16.png"
       />
-      <link rel="shortcut icon" href="/favicon-16x16.png" type="image/x-icon" />
-      <link rel="icon" href="/favicon-16x16.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="/logo.ico" type="image/x-icon" />
+      <link rel="icon" href="/logo.ico" type="image/x-icon" />
       <link rel="manifest" href="/site.webmanifest" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
       <meta property="og:type" content="website" />
