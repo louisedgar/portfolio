@@ -35,26 +35,26 @@ export default function Home() {
             <nav className="flex flex-wrap items-center mb-5 text-base space-x-8 md:mb-0 md:pl-8 md:ml-24 lg:ml-36 xl:ml-64 invisible md:visible absolute md:relative">
               <Link
                 activeClass="active"
-                to="process"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                <span className="md:mr-5 font-medium leading-6 text-white hover:text-opacity-50 cursor-pointer ">
-                  Process
-                </span>
-              </Link>
-              <Link
-                activeClass="active"
                 to="works"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                <span className="mr-5 ml-5 md:mr-5 md:ml-0 font-medium leading-6 text-white hover:text-opacity-50 cursor-pointer">
+                <span className="md:mr-5 font-medium leading-6 text-white hover:text-opacity-50 cursor-pointer ">
                   Works
+                </span>
+              </Link>
+              <Link
+                activeClass="active"
+                to="process"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <span className="mr-5 ml-5 md:mr-5 md:ml-0 font-medium leading-6 text-white hover:text-opacity-50 cursor-pointer">
+                  Process
                 </span>
               </Link>
               <Link
@@ -101,14 +101,14 @@ export default function Home() {
                   </div>
 
                   <div className="text-white font-semibold text-xl leading-8">
-                    I thrive in making a more desirable, technology feasible,
+                    I thrive in making a more desirable, technology-feasible,
                     and business-viable products.
                   </div>
                   <div className="inline-flex items-center justify-end w-auto">
                     <span className="inline-flex mt-8">
                       <a
                         href="mailto:hello@edgarlouis.com"
-                        className="justify-center w-full py-4 px-6 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out rounded-xl text-white bg-primary hover:opacity-75 focus:outline-none text-lg md:text-base"
+                        className="justify-center w-full py-4 px-6 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out rounded-lg text-white bg-primary hover:opacity-75 focus:outline-none text-lg md:text-base"
                       >
                         Contact me
                       </a>
@@ -120,46 +120,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Approach */}
-      <div className="container relative max-w-5xl mx-auto bg-white text-center mt-10 lg:mt-16 border-b-1 pb-10 lg:pb-0 lg:border-none">
-        <div
-          className="flex flex-col text-left md:pl-20 lg:pl-20 xl:px-0"
-          id="process"
-        >
-          <div className="flex flex-col lg:flex-row justify-between gap-10 mt-8 lg:mt-10 px-12 lg:px-20 xl:px-0 text-dark">
-            <div className="text-center">
-              <img src={Research} alt="" className="mx-auto"></img>
-              <div className="text-lg font-extrabold mt-4">Research</div>
-              <div className="font-semibold mt-2">
-                Find out the root problems and talk to the users
-              </div>
-            </div>
-            <div className="text-center">
-              <img src={Design} alt="" className="mx-auto"></img>
-              <div className="text-lg font-extrabold mt-4">Design</div>
-              <div className="font-semibold mt-2">
-                Sketch out the product to align the user needs
-              </div>
-            </div>
-            <div className="text-center">
-              <img src={Test} alt="" className="mx-auto"></img>
-              <div className="text-lg font-extrabold mt-4">Test</div>
-              <div className="font-semibold mt-2">
-                Validate the assumptions and iterate
-              </div>
-            </div>
-            <div className="text-center">
-              <img src={Deliver} alt="" className="mx-auto"></img>
-              <div className="text-lg font-extrabold mt-4">Deliver</div>
-              <div className="font-semibold mt-2">
-                Hand off the solution to the developers
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       {/* Works */}
-      <div className="container relative max-w-5xl bg-white mx-auto mt-16 lg:mt-32 ">
+      <div className="container relative max-w-5xl bg-white mx-auto mt-12 lg:mt-32 ">
         <div className="flex flex-wrap overflow-hidden lg:-mx-5">
           <div
             className="w-full overflow-hidden lg:absolute h-full lg:my-5 pb-10 md:px-20 lg:px-5 lg:w-1/2 z-0"
@@ -396,9 +359,54 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Approach */}
+      <div className="bg-white pt-10 pb-10 lg:pt-20 lg:pb-20">
+        <div className="container relative max-w-5xl mx-auto text-center border-b-1 lg:border-none">
+          <div
+            className="flex flex-col text-left md:pl-20 lg:pl-20 xl:px-0 leading-normal xl:leading-normal"
+            id="process"
+          >
+            <div className="max-w-3xl text-3xl lg:text-4xl font-extrabold text-dark text-center xl:leading-normal px-4 lg:pl-20 xl:px-0 mx-auto">
+              Continuous design process and iteration for the best end-result
+            </div>
+            <div className="sm:flex sm:flex-col sm:gap-10 lg:grid lg:grid-cols-4 lg:justify-between lg:gap-16 mt-8 lg:mt-16 px-4 lg:px-20 xl:px-0 text-dark">
+              <div className="text-center mt-4 lg:mt-0">
+                <img src={Research} alt="" className="mx-auto"></img>
+                <div className="text-xl font-extrabold mt-4">Research</div>
+                <div className="font-semibold text-base mt-2">
+                  Finding out the problems by talking to the users
+                </div>
+              </div>
+              <div className="text-center mt-10 lg:mt-0">
+                <img src={Design} alt="" className="mx-auto"></img>
+                <div className="text-xl font-extrabold mt-4">Design</div>
+                <div className="font-semibold text-base mt-2">
+                  Sketching out the product to align the user needs
+                </div>
+              </div>
+              <div className="text-center mt-10 lg:mt-0">
+                <img src={Test} alt="" className="mx-auto"></img>
+                <div className="text-xl font-extrabold mt-4">Test</div>
+                <div className="font-semibold text-base mt-2">
+                  Validating the assumptions and iterating
+                </div>
+              </div>
+              <div className="text-center mt-10 lg:mt-0">
+                <img src={Deliver} alt="" className="mx-auto"></img>
+                <div className="text-xl font-extrabold mt-4">Deliver</div>
+                <div className="font-semibold text-base mt-2">
+                  Handing off the solution to the developers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* CTA */}
       <div className="max-w-5xl bg-bg-cta bg-cover bg-center bg-no-repeat h-full rounded-xl mx-4 lg:mx-40 xl:mx-auto">
-        <div className="leading-7 text-white my-16 md:mt-10 md:mb-16 px-8 py-16 md:px-20 lg:px-24 xl:py-20">
+        <div className="leading-7 text-white my-16 lg:mt-16 md:mb-16 px-8 py-16 md:px-20 lg:px-24 xl:py-20">
           <div className="max-w-5xl mx-auto border-solid">
             <div className="flex flex-col items-center leading-7 text-white border-0 border-gray-200 lg:items-center lg:flex-row">
               <div className="box-border flex-1 text-center border-solid sm:text-left">
@@ -417,7 +425,7 @@ export default function Home() {
                 >
                   <button
                     type="button"
-                    className="w-full py-4 px-6 border border-transparent text-base leading-6 font-bold text-primary bg-white hover:opacity-75 transition duration-150 ease-in-out rounded-xl"
+                    className="w-full py-4 px-6 border border-transparent text-base leading-6 font-bold text-primary bg-white hover:opacity-75 transition duration-150 ease-in-out rounded-lg"
                   >
                     Contact me
                   </button>
@@ -575,12 +583,11 @@ export default function Home() {
             <div className="title align-middle ">
               <a
                 href="https://dribbble.com/edgarlouis"
-                className="text-dark rounded-full hover:text-gray-500 transform hover:bg-gray-100 px-4 py-4"
+                className="text-dark rounded-full hover:text-gray-500 transform hover:bg-gray px-4 py-4"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="text-lg md:text-xl font-semibold text-pink inline-block align-middle items-center">
-                  <i className="fab fa-dribbble-square text-lg md:text-2xl" />{" "}
                   Discover more on Dribbble{" "}
                   <i className="fas fa-angle-right text-base transform hover:translate-x-6" />
                 </span>
@@ -596,11 +603,11 @@ export default function Home() {
             className="text-left max-w-md px-4 pt-10 pb-16 lg:py-20 xl:px-0 xl:pt-16 xl:pb-32 z-20"
             id="about"
           >
-            <span className="block mt-4 text-3xl leading-normal lg:text-4xl font-extrabold text-white xl:leading-normal">
+            <span className="block mt-4 text-3xl leading-normal lg:text-4xl font-extrabold text-dark xl:leading-normal">
               Say hi and let's collaborate!
             </span>
 
-            <p className="text-xl mt-4 leading-8 text-white font-medium ">
+            <p className="text-xl mt-4 leading-8 text-dark font-medium ">
               Hi! I'm Ed, currently working as a freelance UI/UX designer. If
               you have any ideas for apps and have a passion for solving
               problems and make a good impact, don't hesitate to contact me.
@@ -619,7 +626,7 @@ export default function Home() {
               <a href="mailto:hello@edgarlouis.com">
                 <button
                   type="button"
-                  className="py-4 px-6 text-primary items-center justify-center leading-6 font-bold rounded-xl bg-white hover:opacity-75 focus:outline-none  transition duration-150 ease-in-out"
+                  className="py-4 px-6 text-primary items-center justify-center leading-6 font-bold rounded-lg bg-white hover:opacity-75 focus:outline-none  transition duration-150 ease-in-out"
                 >
                   hello@edgarlouis.com
                 </button>
