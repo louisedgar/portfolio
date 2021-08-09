@@ -108,7 +108,7 @@ export default function Home() {
                     <span className="inline-flex mt-8">
                       <a
                         href="mailto:hello@edgarlouis.com"
-                        className="justify-center w-full py-4 px-6 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-xl text-white bg-primary hover:opacity-75 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 text-lg md:text-base"
+                        className="justify-center w-full py-4 px-6 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out rounded-xl text-white bg-primary hover:opacity-75 focus:outline-none text-lg md:text-base"
                       >
                         Contact me
                       </a>
@@ -121,15 +121,12 @@ export default function Home() {
         </div>
       </section>
       {/* Approach */}
-      <div className="container relative max-w-5xl mx-auto bg-white text-center mt-16 lg:mt-20 border-b-2 pb-16 lg:pb-0 lg:border-none">
+      <div className="container relative max-w-5xl mx-auto bg-white text-center mt-10 lg:mt-16 border-b-1 pb-10 lg:pb-0 lg:border-none">
         <div
           className="flex flex-col text-left md:pl-20 lg:pl-20 xl:px-0"
           id="process"
         >
-          <span className="text-3xl lg:text-4xl font-extrabold text-dark mx-4 md:mx-0 lg:mx-0">
-            Design approach
-          </span>
-          <div className="flex flex-col lg:flex-row justify-between gap-10 mt-8 lg:mt-20 px-12 lg:px-20 xl:px-0 text-dark">
+          <div className="flex flex-col lg:flex-row justify-between gap-10 mt-8 lg:mt-10 px-12 lg:px-20 xl:px-0 text-dark">
             <div className="text-center">
               <img src={Research} alt="" className="mx-auto"></img>
               <div className="text-lg font-extrabold mt-4">Research</div>
@@ -171,7 +168,7 @@ export default function Home() {
             {/* <!-- Column Content --> */}
             <div className=" max-w-md order-1 md:order-none">
               <div className="text-3xl lg:text-4xl leading-8 font-extrabold text-dark sm:leading-9 px-4 lg:pl-20 xl:px-0 ">
-                Case studies
+                Recent projects
               </div>
               <p className="mt-6 text-xl leading-8 text-dark font-medium mt-4 px-4 lg:pl-20 xl:px-0">
                 These are some projects that I've been successfully completed.
@@ -401,7 +398,7 @@ export default function Home() {
       </div>
       {/* CTA */}
       <div className="max-w-5xl bg-bg-cta bg-cover bg-center bg-no-repeat h-full rounded-xl mx-4 lg:mx-40 xl:mx-auto">
-        <div className="leading-7 text-white my-16 md:mt-10 md:mb-24 px-8 py-16 md:px-20  lg:px-24 xl:py-24">
+        <div className="leading-7 text-white my-16 md:mt-10 md:mb-16 px-8 py-16 md:px-20 lg:px-24 xl:py-20">
           <div className="max-w-5xl mx-auto border-solid">
             <div className="flex flex-col items-center leading-7 text-white border-0 border-gray-200 lg:items-center lg:flex-row">
               <div className="box-border flex-1 text-center border-solid sm:text-left">
@@ -431,10 +428,10 @@ export default function Home() {
         </div>
       </div>
       {/* {Other case studies} */}
-      <div className="bg-gray-50 mt-12 lg:mt-10 lg:mb-10">
-        <div className="container relative max-w-5xl mx-auto pt-10 lg:pt-16 lg:pb-10 pb-4 text-dark bg-gray-50">
+      <div className="bg-white">
+        <div className="container relative max-w-5xl mx-auto pt-8 lg:pt-8 lg:pb-8 pb-4 text-dark bg-white">
           <div className="header flex items-end justify-between content-center mb-4">
-            <div className="title px-4 lg:px-20 xl:px-0" id="other-works">
+            <div className="title px-4 lg:px-10 xl:px-0" id="other-works">
               <p className="text-xl lg:text-2xl font-extrabold text-dark mb-4">
                 Other works
               </p>
@@ -517,7 +514,7 @@ export default function Home() {
       </div>
 
       {/* Related Works */}
-      <div className="w-full bg-white p-4 pt-16 lg:pt-16">
+      <div className="w-full bg-white p-4 pt-8 lg:pt-8">
         <div className="max-w-5xl mx-auto mb-12 lg:mb-24 lg:mx-40 xl:mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="overflow-hidden rounded-lg m-auto">

@@ -1,6 +1,14 @@
 module.exports = {
   purge: [],
   theme: {
+    colors: {
+      primary: "#4E3ACC",
+      secondary: "#2B42D4",
+      accent: "#171949",
+      pink: "#CC3ABD",
+      dark: "#18191F",
+      white: "#FFFFFF",
+    },
     textColor: {
       primary: "#4E3ACC",
       secondary: "#2B42D4",
