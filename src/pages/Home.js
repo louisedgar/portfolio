@@ -222,9 +222,9 @@ export default function Home() {
               </h5>
 
               <p className="text-xl leading-8 mt-4 text-dark font-medium px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10">
-                As the demand for language based eduacation platform is
-                increased, we tried to listen to what the Duolingo users' needs
-                and pain points, and did a revamp for it.
+                As the demand for language-based education platforms is
+                increased, we tried to listen to the Duolingo users' needs and
+                pain points and did a revamp for it.
               </p>
               <div className="mt-4">
                 <a
