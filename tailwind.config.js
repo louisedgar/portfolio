@@ -4,7 +4,7 @@ module.exports = {
     colors: {
       primary: "#4E3ACC",
       secondary: "#2B42D4",
-      accent: "#171949",
+      accent: "#131126",
       pink: "#F24C8B",
       dark: "#18191F",
       white: "#FFFFFF",
@@ -13,7 +13,7 @@ module.exports = {
     textColor: {
       primary: "#4E3ACC",
       secondary: "#2B42D4",
-      accent: "#171949",
+      accent: "#131126",
       pink: "#F24C8B",
       dark: "#18191F",
       white: "#FFFFFF",
@@ -23,7 +23,7 @@ module.exports = {
       ...theme("colors"),
       primary: "#4E3ACC",
       secondary: "#2B42D4",
-      accent: "#171949",
+      accent: "#131126",
       pink: "#F24C8B",
       dark: "#18191F",
       white: "#FFFFFF",
@@ -42,6 +42,10 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      transform: ["hover", "focus"],
+    },
+  },
   plugins: [],
 };

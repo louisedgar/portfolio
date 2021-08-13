@@ -85,30 +85,30 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <section className="pt-36 pb-24 lg:pt-48 lg:pb-48 bg-hero-image bg-auto lg:bg-cover lg:bg-center bg-no-repeat h-full xl:px-0 text-left">
-        <div className="container max-w-5xl items-center px-4 mx-auto md:px-20 lg:px-20 xl:px-5">
+      <section className="pt-32 pb-24 lg:pt-40 lg:pb-24 bg-hero-image bg-auto lg:bg-cover lg:bg-center bg-no-repeat max-h-screen xl:px-0 text-left">
+        <div className="container max-w-5xl items-center text-center px-4 mx-auto md:px-20 lg:px-20 xl:mx-auto">
           <div className="flex flex-wrap items-center sm:-mx-3">
-            <div className="w-full md:w-1/2 ">
+            <div className="w-full">
               <Animated
                 animationIn="fadeInUp"
                 animationOut="fadeOut"
                 isVisible={true}
               >
-                <div className="w-full lg:pb-6 space-y-6 lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-10  lg:pr-0 pb-0">
-                  <div className="break-words font-extrabold leading-normal lg:leading-snug xl:leading-snug text-white text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
-                    Improving your digital product’s{" "}
-                    <span className="text-primary">user experience</span>
+                <div className="w-full mx-auto lg:pb-6 space-y-6 xl:text-center lg:max-w-5xl md:space-y-8 lg:space-y-10 xl:space-y-10 lg:pr-0 pb-0">
+                  <div className="break-words font-extrabold leading-tight lg:leading-tight xl:leading-tight text-white text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
+                    Improving your digital product’s user experience
                   </div>
 
-                  <div className="text-white font-semibold text-xl leading-8">
+                  <div className="max-w-2xl mx-auto text-white font-medium text-xl lg:text-2xl leading-9">
                     I thrive in making a more desirable, technology-feasible,
-                    and business-viable products.
+                    and business-viable products - by analyzing the root cause
+                    and providing the best solutions.
                   </div>
                   <div className="inline-flex items-center justify-end w-auto">
                     <span className="inline-flex mt-8">
                       <a
                         href="mailto:hello@edgarlouis.com"
-                        className="justify-center w-full py-4 px-6 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out rounded-lg text-white bg-primary hover:opacity-75 focus:outline-none text-lg md:text-base"
+                        className="justify-center w-full py-4 px-8 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out rounded-full text-primary bg-white hover:opacity-75 focus:outline-none text-lg md:text-base"
                       >
                         Contact me
                       </a>
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* Works */}
-      <div className="container relative max-w-5xl bg-white mx-auto mt-12 lg:mt-32 ">
+      <div className="container relative max-w-5xl bg-white mx-auto mt-12 lg:mt-24 ">
         <div className="flex flex-wrap overflow-hidden lg:-mx-5">
           <div
             className="w-full overflow-hidden lg:absolute h-full lg:my-5 pb-10 md:px-20 lg:px-5 lg:w-1/2 z-0"
@@ -134,9 +134,8 @@ export default function Home() {
                 Recent projects
               </div>
               <p className="mt-6 text-xl leading-8 text-dark font-medium mt-4 px-4 lg:pl-20 xl:px-0">
-                These are some projects that I've been successfully completed.
-                You can read fully the breakdown of the design process in the
-                study case published at{" "}
+                Read fully the breakdown of the design process in the study case
+                published at{" "}
                 <a
                   href="https://bootcamp.uxdesign.cc/"
                   target="_blank"
@@ -150,7 +149,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full overflow-hidden lg:w-1/2 mt-8 lg:mt-64 lg:transform lg:translate-y-32 z-10 order-3 md:order-none">
+          <div className="w-full overflow-hidden lg:w-1/2 mt-8 lg:mt-48 lg:transform lg:translate-y-32 z-10 order-3 md:order-none">
             {/* <!-- Column Content --> */}
             <a
               href="https://bootcamp.uxdesign.cc/case-study-water-pressure-monitoring-web-app-21be037e0097?gi=fbd5f8e56b0"
@@ -159,7 +158,7 @@ export default function Home() {
             >
               <img
                 src={Mantis}
-                className="px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10"
+                className="px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10 hover:transform hover:opacity-75"
                 alt=""
               ></img>
             </a>
@@ -211,7 +210,7 @@ export default function Home() {
             >
               <img
                 src={Duo}
-                className="px-4 md:px-20  lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10"
+                className="px-4 md:px-20  lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10 hover:transform hover:opacity-75"
                 alt=""
               ></img>
             </a>
@@ -262,7 +261,7 @@ export default function Home() {
             >
               <img
                 src={Aqimos}
-                className="px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10"
+                className="px-4 md:px-20 lg:pl-24 lg:pr-10 xl:pl-5 xl:pr-10 hover:transform hover:opacity-75"
                 alt=""
               ></img>
             </a>
@@ -315,7 +314,7 @@ export default function Home() {
             >
               <img
                 src={Formbuilder}
-                className="px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10"
+                className="px-4 md:px-20 lg:pr-24 lg:pl-10 xl:pr-5 xl:pl-10 hover:transform hover:opacity-75"
                 alt=""
               ></img>
             </a>
@@ -361,7 +360,7 @@ export default function Home() {
       </div>
 
       {/* Approach */}
-      <div className="bg-white pt-10 pb-10 lg:pt-20 lg:pb-20">
+      {/* <div className="bg-white pt-10 pb-10 lg:pt-20 lg:pb-20">
         <div className="container relative max-w-5xl mx-auto text-center border-b-1 lg:border-none">
           <div
             className="flex flex-col text-left md:pl-20 lg:pl-20 xl:px-0 leading-normal xl:leading-normal"
@@ -370,39 +369,42 @@ export default function Home() {
             <div className="max-w-3xl text-3xl lg:text-4xl font-extrabold text-dark text-center xl:leading-normal px-4 lg:pl-20 xl:px-0 mx-auto">
               Continuous design process and iteration for the best end-result
             </div>
-            <div className="sm:flex sm:flex-col sm:gap-10 lg:grid lg:grid-cols-4 lg:justify-between lg:gap-16 mt-8 lg:mt-16 px-4 lg:px-20 xl:px-0 text-dark">
-              <div className="text-center mt-4 lg:mt-0">
-                <img src={Research} alt="" className="mx-auto"></img>
-                <div className="text-xl font-extrabold mt-4">Research</div>
+            <div className="sm:flex sm:flex-col sm:gap-10 lg:grid lg:grid-cols-4 lg:justify-between lg:gap-6 mt-8 lg:mt-16 px-4 lg:px-20 xl:px-0 text-dark">
+              <div className="text-left mt-4 lg:mt-0 py-6 px-6 bg-dark text-white rounded-lg">
+                <img src={Research} alt=""></img>
+                <div className="text-xl font-extrabold mt-16">Research</div>
                 <div className="font-semibold text-base mt-2">
-                  Finding out the problems by talking to the users
+                  Finding out the problems by talking to the users and the
+                  stakeholders
                 </div>
               </div>
-              <div className="text-center mt-10 lg:mt-0">
-                <img src={Design} alt="" className="mx-auto"></img>
-                <div className="text-xl font-extrabold mt-4">Design</div>
+              <div className="text-left mt-10 lg:mt-0 py-6 px-6  bg-accent text-white rounded-lg">
+                <img src={Design} alt=""></img>
+                <div className="text-xl font-extrabold mt-16">Design</div>
                 <div className="font-semibold text-base mt-2">
-                  Sketching out the product to align the user needs
+                  Defining and making the product to align the user needs and
+                  business
                 </div>
               </div>
-              <div className="text-center mt-10 lg:mt-0">
-                <img src={Test} alt="" className="mx-auto"></img>
-                <div className="text-xl font-extrabold mt-4">Test</div>
+              <div className="text-left mt-10 lg:mt-0 py-6 px-6 bg-primary text-white rounded-lg">
+                <img src={Test} alt=""></img>
+                <div className="text-xl font-extrabold mt-16">Test</div>
                 <div className="font-semibold text-base mt-2">
-                  Validating the assumptions and iterating
+                  Validating the assumptions and keep doing design iteration
                 </div>
               </div>
-              <div className="text-center mt-10 lg:mt-0">
-                <img src={Deliver} alt="" className="mx-auto"></img>
-                <div className="text-xl font-extrabold mt-4">Deliver</div>
+              <div className="text-left mt-10 lg:mt-0 py-6 px-6 bg-secondary text-white rounded-lg">
+                <img src={Deliver} alt=""></img>
+                <div className="text-xl font-extrabold mt-16">Deliver</div>
                 <div className="font-semibold text-base mt-2">
-                  Handing off the solution to the developers
+                  Handing off the solution to the developers and maintaining
+                  quality
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* CTA */}
       <div className="max-w-5xl bg-bg-cta bg-cover bg-center bg-no-repeat h-full rounded-xl mx-4 lg:mx-40 xl:mx-auto">
@@ -425,7 +427,7 @@ export default function Home() {
                 >
                   <button
                     type="button"
-                    className="w-full py-4 px-6 border border-transparent text-base leading-6 font-bold text-primary bg-white hover:opacity-75 transition duration-150 ease-in-out rounded-lg"
+                    className="w-full py-4 px-8 border border-transparent text-base leading-6 font-bold text-primary bg-white hover:opacity-75 transition duration-150 ease-in-out rounded-full"
                   >
                     Contact me
                   </button>
@@ -436,15 +438,15 @@ export default function Home() {
         </div>
       </div>
       {/* {Other case studies} */}
-      <div className="bg-white">
-        <div className="container relative max-w-5xl mx-auto pt-8 lg:pt-8 lg:pb-8 pb-4 text-dark bg-white">
-          <div className="header flex items-end justify-between content-center mb-4">
+      <div className="bg-white border-t-2 border-gray mt-32">
+        <div className="container relative max-w-5xl mx-auto pt-8 lg:pt-24 lg:pb-8 pb-4 text-dark bg-white ">
+          {/* <div className="header flex items-end justify-between content-center mb-4">
             <div className="title px-4 lg:px-10 xl:px-0" id="other-works">
               <p className="text-xl lg:text-2xl font-extrabold text-dark mb-4">
                 Other works
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="flex grid grid-cols-2 pb-10 lg:gap-x-4 xl:gap-x-10 gap-y-16">
             <div className="flex flex-col items-start col-span-2 md:col-span-1 space-y-3 px-4 lg:pl-20 xl:px-0">
               <a
@@ -626,7 +628,7 @@ export default function Home() {
               <a href="mailto:hello@edgarlouis.com">
                 <button
                   type="button"
-                  className="py-4 px-6 text-primary items-center justify-center leading-6 font-bold rounded-lg bg-white hover:opacity-75 focus:outline-none  transition duration-150 ease-in-out"
+                  className="py-4 px-8 text-primary items-center justify-center leading-6 font-bold rounded-full bg-white hover:opacity-75 focus:outline-none  transition duration-150 ease-in-out"
                 >
                   hello@edgarlouis.com
                 </button>
