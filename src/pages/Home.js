@@ -96,10 +96,10 @@ export default function Home() {
               >
                 <div className="w-full mx-auto lg:pb-6 space-y-6 xl:text-center lg:max-w-5xl md:space-y-8 lg:space-y-10 xl:space-y-10 lg:pr-0 pb-0">
                   <div className="break-words font-extrabold leading-tight lg:leading-tight xl:leading-tight text-white text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
-                    Improving your digital product’s user experience
+                    Improve your digital product’s user experience
                   </div>
 
-                  <div className="max-w-2xl mx-auto text-white font-medium text-xl lg:text-2xl leading-9">
+                  <div className="max-w-3xl mx-auto text-white font-medium text-xl lg:text-2xl leading-8 lg:leading-10">
                     I thrive in making a more desirable, technology-feasible,
                     and business-viable products - by analyzing the root cause
                     and providing the best solutions.
