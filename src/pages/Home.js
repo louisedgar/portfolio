@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </header>
       <section className="pt-32 pb-24 lg:pt-40 lg:pb-24 bg-hero-image bg-auto lg:bg-cover lg:bg-center bg-no-repeat max-h-screen xl:px-0 text-left">
-        <div className="container max-w-5xl items-left text-left px-4 mx-auto md:px-20 lg:px-20 xl:mx-auto">
+        <div className="container max-w-5xl items-left text-left px-4 mx-auto md:px-20 lg:px-20 xl:mx-0">
           <div className="flex flex-wrap items-left sm:-mx-3">
             <div className="w-full">
               <Animated
