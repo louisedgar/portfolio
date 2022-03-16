@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </header>
       <section className="pt-32 pb-24 lg:pt-40 lg:pb-24 bg-hero-image bg-auto lg:bg-cover lg:bg-center bg-no-repeat max-h-screen xl:px-0 text-left">
-        <div className="container max-w-5xl items-left text-left px-4 mx-auto md:px-20 lg:px-20 xl:mx-0">
+        <div className="container max-w-5xl items-left text-left px-4 mx-auto md:px-20 lg:px-20 xl:mx-20">
           <div className="flex flex-wrap items-left sm:-mx-3">
             <div className="w-full">
               <Animated
@@ -99,7 +99,7 @@ export default function Home() {
                     Improve your digital product’s user experience
                   </div>
 
-                  <div className="max-w-3xl mx-auto text-white font-medium text-xl lg:text-2xl leading-8 lg:leading-10">
+                  <div className="max-w-3xl mx-auto text-white font-medium text-xl lg:text-2xl leading-8 lg:leading-10 lg:mx-0">
                     I thrive in making a more desirable, technology-feasible,
                     and business-viable products - by analyzing the root cause
                     and providing the best solutions.
@@ -107,8 +107,8 @@ export default function Home() {
                   <div className="inline-flex items-left justify-end w-auto">
                     <span className="inline-flex mt-8">
                       <a
-                        href="mailto:hello@edgarlouis.com"
-                        className="justify-center w-full py-4 px-8 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out rounded-full text-primary bg-white hover:opacity-75 focus:outline-none text-lg md:text-base"
+                        href="mailto:hello@edgarlouis.tech"
+                        className="text-semibold justify-center w-full py-4 px-8 font-bold leading-6 whitespace-no-wrap transition duration-150 ease-in-out rounded-full text-primary bg-white hover:opacity-75 focus:outline-none text-lg md:text-base"
                       >
                         Contact me
                       </a>
@@ -630,7 +630,7 @@ export default function Home() {
                   type="button"
                   className="py-4 px-8 text-primary items-center justify-center leading-6 font-bold rounded-full bg-white hover:opacity-75 focus:outline-none  transition duration-150 ease-in-out"
                 >
-                  hello@edgarlouis.com
+                  hello@edgarlouis.tech
                 </button>
               </a>
             </div>
