@@ -86,15 +86,15 @@ export default function Home() {
         </div>
       </header>
       <section className="pt-32 pb-24 lg:pt-40 lg:pb-24 bg-hero-image bg-auto lg:bg-cover lg:bg-center bg-no-repeat max-h-screen xl:px-0 text-left">
-        <div className="container max-w-5xl items-center text-center px-4 mx-auto md:px-20 lg:px-20 xl:mx-auto">
-          <div className="flex flex-wrap items-center sm:-mx-3">
+        <div className="container max-w-5xl items-left text-left px-4 mx-auto md:px-20 lg:px-20 xl:mx-auto">
+          <div className="flex flex-wrap items-left sm:-mx-3">
             <div className="w-full">
               <Animated
                 animationIn="fadeInUp"
                 animationOut="fadeOut"
                 isVisible={true}
               >
-                <div className="w-full mx-auto lg:pb-6 space-y-6 xl:text-center lg:max-w-5xl md:space-y-8 lg:space-y-10 xl:space-y-10 lg:pr-0 pb-0">
+                <div className="w-full mx-auto lg:pb-6 space-y-6 xl:text-left lg:max-w-5xl md:space-y-8 lg:space-y-10 xl:space-y-10 lg:pr-0 pb-0">
                   <div className="break-words font-extrabold leading-tight lg:leading-tight xl:leading-tight text-white text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
                     Improve your digital product’s user experience
                   </div>
@@ -104,7 +104,7 @@ export default function Home() {
                     and business-viable products - by analyzing the root cause
                     and providing the best solutions.
                   </div>
-                  <div className="inline-flex items-center justify-end w-auto">
+                  <div className="inline-flex items-left justify-end w-auto">
                     <span className="inline-flex mt-8">
                       <a
                         href="mailto:hello@edgarlouis.com"
